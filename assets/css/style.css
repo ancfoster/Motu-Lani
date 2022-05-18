@@ -1,0 +1,178 @@
+/* Element and heading styles */
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F5F5F5;
+    font-family: forma-djr-display, Arial, sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-family: granville, Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #2C4039;
+    text-align: center;
+    font-size: 2.0rem;
+}
+h2 {
+    font-family: granville, Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.8rem;
+    color: #0E6E66;
+}
+h3 {
+    font-family: granville, Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #0B8699;
+}
+h4 {
+    font-family: granville, Times, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p {
+    font-family: forma-djr-display, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    color: #484848;
+    letter-spacing: 1px;
+}
+
+/* Navigation Styles - Site Wide */ 
+#logo-bar {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: #2C4039;
+    min-height: 40px;
+}
+#logo-bar-container {
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 16px 16px 8px 16px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+}
+#site-logo {
+    height: 100%;
+
+}
+#burger-menu-icon {
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+
+#nav-logo-link {
+    height: 100%;
+}
+#navigation-container {
+    height: 48px;
+    width: 100%;
+    background-color: #2C4039;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+}
+#primary-navigation li {
+    font-family: granville, Times, serif;
+    list-style-type: none;
+    display: inline;
+    padding: 4px 12px;
+    font-size: 16px;
+}
+#primary-navigation  li:last-of-type {
+    background-color: #25615B;
+    border: solid 1px #fff;
+}
+#primary-navigation  li:last-of-type:hover {
+    background-color: #ffffff;
+    border: solid 1px #fff;
+    color: #25615B;
+}
+#primary-navigation  li:last-of-type a:hover {
+    color: #25615B;
+    text-decoration: none;
+}
+#primary-navigation li a {
+    color: #fff;
+    text-decoration: none;
+}
+#primary-navigation  li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Header Styles - Site Wide Except for Home Page */
+header {
+    width: 100%;
+}
+.header-background-image {
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 320px;
+    display: flex;
+}
+#header-background-oval-grey {
+    position: relative;
+    width: 100%;
+    height: 25%;
+    background-image: url("/assets/images/grey_oval_fill_updated.svg");
+    background-size: 125% auto;
+    background-position: top;
+    align-self: flex-end;
+    background-repeat: no-repeat;
+}
+.shift {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+}
+
+#secondary-navigation {
+    text-align: center;
+    margin-right: 32px;
+    box-sizing: border-box;
+}
+#secondary-navigation li {
+    list-style-type: none;
+    font-family: granville, Times, serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 0 12px;
+    display: inline;
+}
+
+#secondary-navigation li a {
+    color: #25615B;
+    text-decoration: none;
+}
+#secondary-navigation li a:hover {
+    text-decoration: underline;
+}
+
+/* Multi Page Section Styles*/
+.section-container {
+    max-width: 960px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+/* Activities Page Stages */
+#activities-header-background {
+    background-image: url("/assets/images/scuba_turtle.jpeg");
+}
