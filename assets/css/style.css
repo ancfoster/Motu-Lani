@@ -40,7 +40,6 @@ p {
     color: #484848;
     letter-spacing: 1px;
 }
-
 /* Navigation Styles - Site Wide */ 
 #logo-bar {
     position: fixed;
@@ -112,7 +111,6 @@ p {
     color: #fff;
     text-decoration: underline;
 }
-
 /* Header Styles - Site Wide Except for Home Page */
 header {
     width: 100%;
@@ -155,7 +153,6 @@ header {
     padding: 0 12px;
     display: inline;
 }
-
 #secondary-navigation li a {
     color: #25615B;
     text-decoration: none;
@@ -163,14 +160,118 @@ header {
 #secondary-navigation li a:hover {
     text-decoration: underline;
 }
-
 /* Multi Page Section Styles*/
-.section-container {
+main {
     max-width: 960px;
     margin: auto;
     box-sizing: border-box;
     padding: 8px;
 }
+/*Footer styles*/
+footer {
+    width: 100%;
+    background-color: #25615B;
+}
+#footer-container {
+    width: 100%;
+    max-width: 960px;
+    min-height: 96px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 24px 16px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+#copyright {
+    color: #fff;
+    font-size: 11px;
+    margin-top: 16px;
+}
+#footer-two-column {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#footer-newsletter-cont {
+    width: calc(100% - 160px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+#footer-social-icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+#footer-social-icons img {
+    height: 32px;
+    width: auto;
+
+}
+#footer-social-icons > :first-child > :first-child {
+    margin-right: 16px;
+}
+#footer-social-icons > :nth-child(2) > :first-child {
+    margin-right: 10px;
+}
+#footer-heading {
+    color: #fff;
+    font-family: granville, Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.4rem;
+
+}
+#footer-newsletter-cont form {
+    padding-top: 16px;
+    padding-bottom: 8px;
+    margin: 0;
+}
+#email-addresss-footer {
+    padding: 10px 10px 10px 10px;
+    background-color: #25615B;
+    border: solid 1px #fff;
+    color: #fff;
+    font-family: granville, Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-right: 8px;
+    min-width: 250px;
+}
+#email-addresss-footer:focus {
+    background-color: #2C4039;
+}
+
+#footer-submit {
+    padding: 10px 10px 10px 10px;
+    background-color: #25615B;
+    border: solid 1px #fff;
+    color: #fff;
+    font-family: granville, Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+}
+#footer-submit:hover {
+    background-color: #fff;
+    color: #2C4039;
+    cursor: pointer;
+}
+#footer-logo {
+    width: 160px;
+    box-sizing: border-box;
+    padding: 0 0 8px 8px;
+    text-align: right;
+}
+#footer-logo img {
+    width: 100%;
+    height: auto;
+}
+
+
 
 /* Activities Page Stages */
 #activities-header-background {
