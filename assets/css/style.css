@@ -43,7 +43,7 @@ p {
 /* Navigation Styles - Site Wide */ 
 #logo-bar {
     position: fixed;
-    z-index: 10;
+    z-index: 40;
     width: 100%;
     background-color: #2C4039;
     min-height: 40px;
@@ -53,7 +53,7 @@ p {
     max-width: 960px;
     margin: auto;
     box-sizing: border-box;
-    padding: 16px 16px 8px 16px;
+    padding: 16px 16px 4px 16px;
     height: 72px;
     display: flex;
     flex-direction: row;
@@ -62,17 +62,45 @@ p {
 }
 #site-logo {
     height: 100%;
-
 }
-#burger-menu-icon {
-    display: none;
+#burger-icon-container {
     width: 40px;
     height: 40px;
+    position: absolute;
+    left: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
+#burger-icon-container {
+    cursor: pointer;
+}
+#burger-top {
+    width: 40px;
+    height: 1px;
+    background-color: #fff;
+    transition: 0.2s ease-in-out;
+    margin-top: 10px;
+}
+#burger-middle {
+    width: 25px;
+    height: 1px;
+    background-color: #fff;
+    margin-top: 9px;
+    transition: 0.3s ease-out;
 
+}
+#burger-bottom {
+    width: 40px;
+    height: 1px;
+    background-color: #fff;
+    transition: 0.2s ease-in-out;
+    margin-top: 9px;
+}
 #nav-logo-link {
     height: 100%;
 }
+/* Desktop Navigation Styles */
 #navigation-container {
     height: 48px;
     width: 100%;
@@ -111,6 +139,69 @@ p {
     color: #fff;
     text-decoration: underline;
 }
+/* Mobile Navigation Styles */
+#mobile-navigation-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #25615B;
+    z-index: 15;
+    box-sizing: border-box;
+    padding: 16px 0 0 0;
+    text-align: center;
+    position: fixed;
+    bottom: 100%;
+    transform: translateY(-100%);
+    transition: 0.7s ease-in-out;
+}
+#mobile-navigation-container ul {
+    padding: 0 16px;
+    margin: 88px auto 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+#mobile-navigation-container li {
+    font-family: granville, Times, serif;
+    list-style-type: none;
+    padding: 10px 0;
+    font-size: 1.4rem;
+}
+#mobile-navigation-container li:first-of-type {
+    padding-left: 3px;
+}
+#mobile-navigation-container li a {
+    color: #fff;
+    text-decoration: none;
+}
+#mobile-navigation-container li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+#mobile-navigation-container li:last-of-type {
+    background-color:  #2C4039;
+    border: solid 1px #fff;
+    margin-top: 16px;
+}
+#mobile-navigation-container li:last-of-type:hover {
+    background-color:  #ffffff;
+}
+#mobile-navigation-container li:last-of-type:hover a {
+    color: #25615B;
+    text-decoration: none;
+}
+/* Navigation Media Queries */
+@media screen and (min-width: 768px) {
+#burger-icon-container {
+    display: none;
+}
+}
+@media screen and (max-width: 768px) {
+#navigation-container {
+    display: none;
+}
+#logo-bar {
+     padding-bottom: 8px;
+}    
+}
 /* Header Styles - Site Wide Except for Home Page */
 header {
     width: 100%;
@@ -139,7 +230,6 @@ header {
     bottom: -12px;
     left: 0;
 }
-
 #secondary-navigation {
     text-align: center;
     margin-right: 32px;
@@ -208,7 +298,6 @@ footer {
 #footer-social-icons img {
     height: 32px;
     width: auto;
-
 }
 #footer-social-icons > :first-child > :first-child {
     margin-right: 16px;
@@ -222,7 +311,6 @@ footer {
     font-weight: 600;
     font-style: normal;
     font-size: 1.4rem;
-
 }
 #footer-newsletter-cont form {
     padding-top: 16px;
@@ -230,7 +318,7 @@ footer {
     margin: 0;
 }
 #email-addresss-footer {
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     background-color: #25615B;
     border: solid 1px #fff;
     color: #fff;
@@ -244,9 +332,8 @@ footer {
 #email-addresss-footer:focus {
     background-color: #2C4039;
 }
-
 #footer-submit {
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     background-color: #25615B;
     border: solid 1px #fff;
     color: #fff;
@@ -270,9 +357,6 @@ footer {
     width: 100%;
     height: auto;
 }
-
-
-
 /* Activities Page Stages */
 #activities-header-background {
     background-image: url("/assets/images/scuba_turtle.jpeg");
