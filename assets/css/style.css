@@ -200,7 +200,7 @@ p {
 }
 #logo-bar {
      padding-bottom: 8px;
-}    
+}   
 }
 /* Header Styles - Site Wide Except for Home Page */
 header {
@@ -217,7 +217,7 @@ header {
     position: relative;
     width: 100%;
     height: 25%;
-    background-image: url("/assets/images/grey_oval_fill_updated.svg");
+    background-image: url("../images/grey_oval_fill_updated.svg");
     background-size: 125% auto;
     background-position: top;
     align-self: flex-end;
@@ -357,7 +357,33 @@ footer {
     width: 100%;
     height: auto;
 }
+@media screen and (max-width: 608px) {
+    #footer-two-column {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #footer-newsletter-cont {
+        width: 100%;
+    }
+    #email-addresss-footer {
+       min-width: 100px;
+       width: calc(100vw - 180px);
+    }
+    #footer-social-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    #footer-logo {
+        width: 100%;
+    }
+    #footer-logo img {
+        height: 80px;
+    }
+}
 /* Activities Page Stages */
 #activities-header-background {
-    background-image: url("/assets/images/scuba_turtle.jpeg");
+    background-image: url("../images/scuba_turtle.jpeg");
 }
