@@ -250,6 +250,12 @@ header {
 #secondary-navigation li a:hover {
     text-decoration: underline;
 }
+/* Header Media Queries */
+@media screen and (max-width: 768px) {
+    .header-background-image{
+        height: 240px;
+}
+}
 /* Multi Page Section Styles*/
 main {
     max-width: 960px;
@@ -313,7 +319,6 @@ footer {
     font-size: 1.4rem;
 }
 #footer-newsletter-cont form {
-    padding-top: 16px;
     padding-bottom: 8px;
     margin: 0;
 }
