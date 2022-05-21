@@ -1,4 +1,7 @@
 /* Element and heading styles */
+html {
+    scroll-behavior: smooth;
+}
 body {
     padding: 0;
     margin: 0;
@@ -325,7 +328,7 @@ footer {
     font-style: normal;
     font-size: 16px;
     margin-right: 8px;
-    min-width: 250px;
+    min-width: 210px;
 }
 #email-addresss-footer:focus {
     background-color: #2C4039;
@@ -386,9 +389,30 @@ main {
     max-width: 960px;
     margin: auto;
     box-sizing: border-box;
-    padding: 8px;
+    padding: 8px 16px;
 }
-/* Activities Page Styles */
-#activities-header-background {
-    background-image: url("../images/scuba_turtle.jpeg");
+#scroll-to-top {
+    margin: auto;
+    height: 80px;
+    text-align: center;
+    width: 100%;
+    font-size: 1.0rem;
+    font-family: granville, Times, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+#scroll-to-top a {
+    color: #25615B;
+    text-decoration: none;
+}
+#scroll-to-top a img {
+    height: 40px;
+    width: auto;
+    display: block;
+    margin: auto;
+    padding-bottom: 4px;
+}
+#scroll-to-top a:hover {
+    color: #25615B;
+    text-decoration: underline;
 }
