@@ -21,8 +21,9 @@
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
     z-index: 1;
+    position: relative;
 }
-#video-container video{
+#video-container video {
     width: 100%;
     height: auto;
 }
@@ -136,14 +137,14 @@
     #home-page-spacer {
         width: 100%;
         min-height: 48px;
-    }
-    #video-container video{
+    } 
+    #video-container video {
         position: absolute;
         top: 0;
         left: -40%;
         width: 180%;
         transform: rotate(90deg);
-    }
+    } 
     #hero-flex h1 {
         font-size: 1.6rem;
     }
