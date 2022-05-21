@@ -190,17 +190,17 @@ p {
 }
 /* Navigation Media Queries */
 @media screen and (min-width: 768px) {
-#burger-icon-container {
-    display: none;
-}
+    #burger-icon-container {
+        display: none;
+    }
 }
 @media screen and (max-width: 768px) {
-#navigation-container {
-    display: none;
-}
-#logo-bar {
-     padding-bottom: 8px;
-}   
+    #navigation-container {
+        display: none;
+    }
+    #logo-bar {
+        padding-bottom: 8px;
+    }   
 }
 /* Header Styles - Site Wide Except for Home Page */
 header {
@@ -252,16 +252,9 @@ header {
 }
 /* Header Media Queries */
 @media screen and (max-width: 768px) {
-    .header-background-image{
+    .header-background-image {
         height: 240px;
 }
-}
-/* Multi Page Section Styles*/
-main {
-    max-width: 960px;
-    margin: auto;
-    box-sizing: border-box;
-    padding: 8px;
 }
 /*Footer styles*/
 footer {
@@ -322,7 +315,7 @@ footer {
     padding-bottom: 8px;
     margin: 0;
 }
-#email-addresss-footer {
+#email-address-footer {
     padding: 10px;
     background-color: #25615B;
     border: solid 1px #fff;
@@ -388,7 +381,14 @@ footer {
         height: 80px;
     }
 }
-/* Activities Page Stages */
+/* Multi Page Section Styles*/
+main {
+    max-width: 960px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 8px;
+}
+/* Activities Page Styles */
 #activities-header-background {
     background-image: url("../images/scuba_turtle.jpeg");
 }
