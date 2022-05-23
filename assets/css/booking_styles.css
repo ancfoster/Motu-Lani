@@ -1,0 +1,202 @@
+/* Booking Page Styles */
+#booking-header-background {
+    background-image: url("../images/booking_header.jpeg");
+}
+#form-container {
+    width: 92%;
+    margin: 0 auto 40px auto;
+    background-color: #fff;
+    display: flex;
+    box-sizing: border-box;
+    padding: 24px;
+}
+.stage-counter {
+    background-color: #0E6E66;
+    border-radius: 50%;
+    margin: 16px auto 4px auto;
+    height: 48px;
+    width: 48px;
+    text-align: center;
+    color: #fff;
+    font-family: granville, Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.3rem;
+    line-height: 48px;
+}
+#form-container h3 {
+    color: #0E6E66;
+    font-size: 1.3rem;
+    margin: 0 0 8px 0;
+    padding: 16px 0;
+}
+#form-container form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+}
+#form-container label { 
+    font-family: granville, Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #0B8699;
+    padding: 4px 0;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-bottom: 4px;
+    text-align: left;
+}
+#form-container input {
+    background-color: #F8F8F8;
+    padding: 8px;
+    margin-bottom: 16px;
+    font-family: forma-djr-display, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #333;
+    font-size: 1.3rem;
+    border: 1px solid #0B8699;
+}
+#form-container input:focus {
+    background-color: #FFF;
+    padding: 8px;
+    margin-bottom: 16px;
+    font-family: forma-djr-display, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #333;
+    font-size: 1.3rem;
+    border: 1px solid #0E6E66;
+}
+#form-container select {
+    background-color: #F8F8F8;
+    padding: 8px;
+    margin-bottom: 16px;
+    font-family: forma-djr-display, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #333;
+    font-size: 1.3rem;
+    border: 1px solid #0B8699;
+}
+#form-container select:focus {
+    background-color: #FFF;
+    padding: 8px;
+    margin-bottom: 16px;
+    font-family: forma-djr-display, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #333;
+    font-size: 1.3rem;
+    border: 1px solid #0E6E66;
+}
+#form-description {
+    width: 92%;
+    display: block;
+    margin: auto;
+    padding-bottom: 24px;
+}
+#date-flex {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+#date-flex div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+#date-flex div:first-of-type {
+    margin-right: 12px;
+}
+#date-flex div:last-of-type {
+    margin-left: 12px;
+}
+#party-size-flex {
+    width: 100%;
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.party-size-button {
+    height: 48px;
+    width: 48px;
+    background-color: #0B8699;
+    color: #fff;
+    line-height: 24px;
+    font-family: granville, Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+}
+#booking_size {
+    background-color: #fff !important;
+    color: #333;
+    border: none !important;
+    margin: 0 1px 0 16px;
+    width: 56px !important;
+    font-size: 32px !important;
+    text-align: center;
+}
+#accomo-flex {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+.accomo-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    padding: 16px;
+
+}
+.accomo-col img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.sleeps {
+    font-family: granville, Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.0rem;
+    color: #0B8699;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #c9f3ef;
+}
+input[type="radio"] {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+#booking_submit {
+    max-width: 200px !important;
+    margin: auto;
+    padding: 16px !important;
+    background-color: #25615B !important;
+    color: #fff !important;
+    font-family: granville, Times, serif !important;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+}
+#booking_submit:hover {
+    background-color: #2C4039 !important;
+    color: #fff !important;
+}
+

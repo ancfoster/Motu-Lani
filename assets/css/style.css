@@ -34,6 +34,9 @@ h4 {
     font-family: granville, Times, serif;
     font-weight: 400;
     font-style: normal;
+    color: #0B8699;
+    padding: 4px 0;
+    font-size: 1.2rem;
 }
 p {
     font-family: forma-djr-display, Arial, sans-serif;
@@ -400,6 +403,7 @@ main {
     font-family: granville, Times, serif;
     font-weight: 300;
     font-style: normal;
+    padding: 24px 0;
 }
 #scroll-to-top a {
     color: #25615B;
