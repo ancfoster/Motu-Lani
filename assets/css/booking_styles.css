@@ -24,7 +24,7 @@
     font-size: 1.3rem;
     line-height: 48px;
 }
-#form-container h3 {
+#party_size_label {
     color: #0E6E66;
     font-size: 1.3rem;
     margin: 0 0 8px 0;
@@ -34,7 +34,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    flex-wrap: wrap;
     width: 100%;
     text-align: center;
 }
@@ -49,7 +48,14 @@
     margin-bottom: 4px;
     text-align: left;
 }
+#form-container h3 {
+    color: #0E6E66;
+    font-size: 1.3rem;
+    margin: 0 0 8px 0;
+    padding: 16px 0;
+}
 #form-container input {
+    width: calc(100% - 16px);
     background-color: #F8F8F8;
     padding: 8px;
     margin-bottom: 16px;
@@ -62,6 +68,7 @@
 }
 #form-container input:focus {
     background-color: #FFF;
+    width: calc(100% - 16px);
     padding: 8px;
     margin-bottom: 16px;
     font-family: forma-djr-display, Arial, sans-serif;
@@ -162,7 +169,6 @@
     justify-content: center;
     width: 160px;
     padding: 16px;
-
 }
 .accomo-col img {
     width: 100%;
@@ -198,5 +204,27 @@ input[type="radio"] {
 #booking_submit:hover {
     background-color: #2C4039 !important;
     color: #fff !important;
+}
+#party_size_label {
+    color: #0E6E66 !important;
+    text-align: center !important;
+    font-size: 1.3rem;
+    margin: 0 0 8px 0;
+    padding: 16px 0 !important;
+}
+/* Booking Media Queries */ 
+@media screen and (max-width: 470px) {
+    #date-flex {
+        flex-direction: column;
+    }
+    #date-flex div {
+        width: 100%;
+    }
+    #date-flex div:first-of-type {
+        margin-right: 0;
+    }
+    #date-flex div:last-of-type {
+        margin-left: 0;
+    }
 }
 

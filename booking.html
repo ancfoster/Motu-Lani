@@ -351,18 +351,18 @@
                 <div id="date-flex">
                     <div>
                         <label for="booking_arrival">Arrival *</label>
-                        <input type="date" id="booking_arrival" name="booking_arrival" aria-placeholder="Enter preferred arrival date" min="2022-01-01" max="2024-01-01">
+                        <input type="date" id="booking_arrival" name="booking_arrival" required aria-placeholder="Enter preferred arrival date" min="2022-05-23" max="2024-01-01">
                     </div>
                     <div>
                         <label for="booking_departure">Departure *</label>
-                        <input type="date" id="booking_departure" name="booking_departure" aria-placeholder="Enter preferred departure date" min="2022-01-01" max="2024-01-30">
+                        <input type="date" id="booking_departure" name="booking_departure" required aria-placeholder="Enter preferred departure date" min="2022-05-24" max="2024-01-30">
                     </div>
                 </div>
                 <div class="stage-counter">3</div>
-                <h3>Party Size</h3>
+                <label id="party_size_label" for="booking_party_size">Party Size</label>
                 <div id="party-size-flex">
                     <button type="button" onclick="minus_size()" class="party-size-button" aria-label="Increase party size" id="size-minus">-</button>
-                    <input type="number" min="1" max="6" value="2" disabled id="booking_size" name="booking_size">
+                    <input type="number" min="1" max="6" value="2" readonly="readonly" id="booking_size" name="booking_party_size">
                     <button type="button" onclick="plus_size()" aria-label="crease party size" class="party-size-button" id="size-plus">+</button>
                 </div>
                 <div class="stage-counter">4</div>
@@ -371,7 +371,7 @@
                     <div class="accomo-col">
                         <img src="assets/images/booking_bungalow.jpeg" alt="Motu Lani Bungalow" load="lazy">
                         <label for="bungalow">Bungalow</label>
-                        <input type="radio" checked="checked" aria-checked="true" id="bungalow" name="booking_accomodation">
+                        <input type="radio" checked="checked" aria-checked="true" required id="bungalow" name="booking_accomodation">
                         <span class="sleeps">Sleeps up to 4</span>
                     </div>
                     <div class="accomo-col">
