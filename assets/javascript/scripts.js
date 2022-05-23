@@ -1,7 +1,7 @@
+/* jshint esversion: 11 */
 // Adds year to copyright disclaimer in footer
-const y = new Date();
+let y = new Date();
 document.getElementById("year").innerHTML = y.getFullYear();
-
 // Sets initial status of responsive menu
 let dropStatus = 0;
 // Controls burger icon animation and opens/closes mobile navigation

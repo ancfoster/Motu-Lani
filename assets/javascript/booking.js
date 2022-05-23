@@ -1,3 +1,4 @@
+/* jshint esversion: 11 */
 let size_current = document.getElementById("booking_size").value;
 function minus_size() {
     if (size_current > 1) {
@@ -6,7 +7,7 @@ function minus_size() {
     }
 }
 function plus_size() {
-    if (size_current < 7) {
+    if (size_current < 6) {
         size_current = Number(size_current) + 1;
         document.getElementById("booking_size").value = size_current;
     }
