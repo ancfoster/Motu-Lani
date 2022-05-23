@@ -132,6 +132,18 @@
     font-size: 1.1rem;
     font-style: normal;
 }
+#quad-accomodation {
+    background-image: url("../images/accomodation_overwater.jpeg");
+}
+#quad-cuisine{
+    background-image: url("../images/lobster.jpeg");
+}
+#quad-activities {
+    background-image: url("../images/scuba_turtle.jpeg");
+}
+#quad-contact {
+    background-image: url("../images/contact-hp.jpeg");
+}
 /* Home Page Media Queries */
 @media screen and (max-width: 768px) {
     #home-page-spacer {
