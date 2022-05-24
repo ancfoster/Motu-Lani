@@ -1,6 +1,6 @@
 /* Booking Page Styles */
 #booking-header-background {
-    background-image: url("../images/booking_header.jpeg");
+    background-image: url("../images/booking_header.webp");
 }
 #form-container {
     width: 92%;
@@ -200,6 +200,7 @@ input[type="radio"] {
     font-weight: 600;
     font-style: normal;
     font-size: 16px;
+    cursor: pointer;
 }
 #booking_submit:hover {
     background-color: #2C4039 !important;
