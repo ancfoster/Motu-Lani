@@ -1,0 +1,18 @@
+/* Contact Page Styles */
+#contact-header-background {
+    background-image: url("../images/contact_header.jpeg");
+}
+#getting-here {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: #0E6E66;
+    color: #fff;
+    margin-bottom: 24px;
+}
+#getting-here h2 {
+    color: #fff;
+    padding: 0 0 16px 0;
+    margin: 0;
+}
