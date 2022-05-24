@@ -331,7 +331,6 @@ footer {
     font-style: normal;
     font-size: 16px;
     margin-right: 8px;
-    min-width: 210px;
 }
 #email-addresss-footer:focus {
     background-color: #2C4039;
