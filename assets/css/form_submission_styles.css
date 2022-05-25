@@ -1,0 +1,97 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-color: #F5F5F5;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: granville, Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #2C4039;
+    text-align: center;
+    font-size: 2.0rem;
+}
+h2 {
+    font-family: granville, Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.6rem;
+    color: #0E6E66;
+    text-align: center;
+}
+h3 {
+    font-family: granville, Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #0B8699;
+}
+h4 {
+    font-family: granville, Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0B8699;
+    padding: 4px 0;
+    font-size: 1.2rem;
+}
+p {
+    font-family: forma-djr-display, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.0rem;
+    color: #484848;
+    letter-spacing: 1px;
+}
+p a {
+    text-decoration: underline;
+}
+p a:hover {
+    text-decoration: underline;
+    color: #2C4039;
+}
+p a:visited {
+    color: #484848;
+}
+header {
+    text-align: center;
+}
+header img {
+    width: 75%;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+}
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#tick {
+    animation: tick-animate;
+    animation-duration: 0.5s;
+    animation-delay: 0.2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+@keyframes tick-animate {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1.0;
+        transform: scale(1.0);
+    }
+    
+}
