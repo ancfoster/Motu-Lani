@@ -1,0 +1,24 @@
+#accomodation-header-background {
+    background-image: url("../images/accomodation_header.jpeg");
+}
+#accomodation-features ul {
+    padding: 0;
+    margin: 0;
+}
+#accomodation-features ul li {
+    list-style: none;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    padding: 4px 0;
+}
+#accomodation-features ul li::before {
+    content: '';
+    display: inline-block;
+    height: 18px;
+    width: 20px;
+    margin-right: 8px;
+    background-image: url("../images/reef_bullet.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
