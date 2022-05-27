@@ -1,9 +1,24 @@
 #accomodation-header-background {
     background-image: url("../images/accomodation_header.jpeg");
 }
+#accomodation-features {
+    margin-bottom: 24px;
+}
+#accomodation-features img {
+    margin: 8px auto;
+    width: 66%;
+    display: block;
+}
+#two-col-list {
+    column-count: 2;
+    column-rule-width: 1px;
+    column-rule-color: none;
+    column-width: 50%;
+}
 #accomodation-features ul {
     padding: 0;
     margin: 0;
+    column-span: 2;
 }
 #accomodation-features ul li {
     list-style: none;
@@ -21,4 +36,73 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+.acco-flex {
+    display: flex;
+    flex-direction: column;
+}
+.acco-flex-group:nth-child(even) {
+    flex-flow: row-reverse;   
+}
+.acco-flex-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 16px 0;
+}
+.acco-flex-group div {
+    display: flex;
+    flex-direction: column;
+}
+.acco-flex-group img {
+    width: 60%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 8px 16px;
+    -webkit-box-shadow: 1px 1px 16px 0px rgba(0,0,0,0.3); 
+    box-shadow: 1px 1px 16px 0px rgba(0,0,0,0.3);
+}
+.acco-flex-group p {
+    box-sizing: border-box;
+    padding: 0 8px;
+    margin: 8px;
+}
+.sleeps {
+    font-family: granville, Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.0rem;
+    color: #0B8699;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #c6ecf2;;
+    margin: 12px 0;
+}
+.price {
+    font-family: granville, Times, serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #0B8699;
+    font-size: 1.6rem;
+}
+/* Accomodation Media Queries */
+@media screen and (max-width: 720px) {
+    .acco-flex-group {
+        flex-direction: column;
+        padding: 16px 0 0 0;
+    }
+    .acco-flex-group img {
+        width: 100%;
+        height: auto;
+        margin: 8px 0px;
+        padding: 0;
+    }
+    .acco-flex-group p {
+        padding: 8px 0;
+        margin: 8px 0;
+    }
+    .acco-flex-group:nth-child(even) {
+        flex-flow: column;   
+    }
 }
