@@ -238,15 +238,22 @@ header {
 }
 #secondary-navigation {
     text-align: center;
-    margin-right: 32px;
+    width: 100%;
     box-sizing: border-box;
+    padding: 0 4px;
+}
+#secondary-navigation ul {
+    padding: none;
+    margin: none;
+    padding-inline-start: 0 !important;
 }
 #secondary-navigation li {
     list-style-type: none;
     font-family: granville, Times, serif;
     font-weight: 400;
     font-size: 1.2rem;
-    padding: 0 12px;
+    padding: 0 8px;
+    box-sizing: border-box;
     display: inline;
 }
 #secondary-navigation li a {
