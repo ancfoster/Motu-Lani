@@ -57,6 +57,15 @@ For wriritng code and Git commands I used Visual Studio Code [https://code.visua
 GitHub [https://github.com](url)
 
     explain various tech used, such as HTML, CSS, Gitpod/VSCode, GitHub, Git, etc. - add a link to each respective site as well, if possible
+## Tools Used
+[TinyPNG](https://tinypng.com) was used to optimise all .JPEG and .PNG images used in the project to ensure efficient loading for the end user.
+
+Adobe Illustrator was used for vector graphic design, like for the logo and coral reef list bullets.
+
+Figma was used to create high fidelity mockups before I started coding. 
+
+Markdown Editor by Satoshi Iwaki was used for editing .MD files.
+
 ## Testing
     "For all testing, please refer to the [TESTING.md](TESTING.md) file."
 ## Deployment
@@ -66,7 +75,12 @@ GitHub [https://github.com](url)
 ## Credits
     explain about any particular places you took inspiration from
 ### Content
-    list out any URLs or links where you might've borrowed a snippet of code, or element
+I used an acessibiility guide provided by [Orange](https://a11y-guidelines.orange.com/en/articles/accessible-svg/) on how to provide screen-reader support for an inline SVG.
+
+I used a code snippet from StackOverflow user [Elad Amsaalem](https://stackoverflow.com/questions/11671100/scale-path-from-center) to properly scale an SVG path element.
+
+```.scaled-path-svg { svg { path {transform-origin: center; transform: cale(1.1); } } } ```
+
 ### Media
 #### Home Page
 
