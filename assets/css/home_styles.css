@@ -113,7 +113,7 @@
 }
 #hp-gallery {
     width: 100%;
-    max-width: 600px;
+    max-width: 640px;
     display: flex;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
@@ -136,8 +136,7 @@
     align-items: center;
     display: flex;
     flex-shrink: 0;
-    background-color: pink;
-    height: 300px;
+    height: 384px;
     justify-content: center;
     position: relative;
     scroll-snap-align: start;
