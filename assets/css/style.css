@@ -288,8 +288,8 @@ header {
     padding: 0 4px;
 }
 #secondary-navigation ul {
-    padding: none;
-    margin: none;
+    padding: 0;
+    margin: 0;
     -webkit-padding-start: 0 !important;
             padding-inline-start: 0 !important;
 }
