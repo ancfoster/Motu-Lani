@@ -21,22 +21,17 @@
     -webkit-column-count: 2;
        -moz-column-count: 2;
             column-count: 2;
-    -webkit-column-rule-width: 1px;
-       -moz-column-rule-width: 1px;
-            column-rule-width: 1px;
-    -webkit-column-rule-color: none;
-       -moz-column-rule-color: none;
-            column-rule-color: none;
-    -webkit-column-width: 50%;
-       -moz-column-width: 50%;
-            column-width: 50%;
+    -webkit-column-rule-width: 0px;
+       -moz-column-rule-width: 0px;
+            column-rule-width: 0px;
+    -webkit-column-rule-color: #f8f8f8;
+       -moz-column-rule-color: #f8f8f8;
+            column-rule-color: #f8f8f8;
 }
 #accomodation-features ul {
     padding: 0;
     margin: 0;
-    -webkit-column-span: 2;
-       -moz-column-span: 2;
-            column-span: 2;
+
 }
 #accomodation-features ul li {
     list-style: none;
@@ -166,22 +161,11 @@
         -webkit-column-count: 1;
            -moz-column-count: 1;
                 column-count: 1;
-        -webkit-column-rule-width: none;
-           -moz-column-rule-width: none;
-                column-rule-width: none;
-        -webkit-column-rule-color: none;
-           -moz-column-rule-color: none;
-                column-rule-color: none;
-        -webkit-column-width: 100%;
-           -moz-column-width: 100%;
-                column-width: 100%;
     }
     #accomodation-features ul {
         padding: 0;
         margin: 0;
-        -webkit-column-span: 1;
-           -moz-column-span: 1;
-                column-span: 1;
+
     }
     
 }
