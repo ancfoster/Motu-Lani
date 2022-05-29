@@ -1,4 +1,7 @@
 # Motu Lani
+
+-- responsive image
+
 The Motu Lani site was built to fufill the goals of two stakeholders, the owners of the Motu Lani Resort and consumers looking for a luxury vacation in the Pacific.
 
 #### Motu Lani Owner Goals
@@ -11,8 +14,10 @@ The Motu Lani site was built to fufill the goals of two stakeholders, the owners
 - Get a taste for the Motu Lani resort experience through the website's visual design 
 - Make a booking request or contact the resort for information
 
-### Design Process
+## Design Process
 This section outlines the design process and design thinking that occured when developing the Motu Lani site.
+
+### UX Design
 
 #### Competitor Analysis
 To inform the design process I conducted a competitor analysis to inform the UX decision making. 
@@ -23,19 +28,13 @@ The three tasks were:
 2) Look for information about the accomodation
 3) Make a booking request
 
-## Visual Design
+### Visual Design
 #### Colour Scheme
 
 I took an image that represented the aesthetics I had in mind for the Motu Lani design system and uploaded to it Adobe Creative Cloud where a colour palette was then generated.
 
 ![Motu Lani Colours](readme_assets/images/colour.png "Motu Lani Colours")
 
-
-# Title
-    Intro paragraph
-    amiresponisive image
-## UX
-    briefly explain your design
 ### User Stories (optional for your project, but if you have a few you could add, then fantastic!)
     bulletpoint any user stories you have... "As a user, I would like to __________", etc.
 ### Colour Scheme
@@ -64,20 +63,29 @@ Adobe Illustrator was used for vector graphic design, like for the logo and cora
 
 Figma was used to create high fidelity mockups before I started coding. 
 
-Markdown Editor by Satoshi Iwaki was used for editing .MD files.
+[Markdown Editor](https://apps.apple.com/ie/app/markdown-editor/id1458220908?mt=12) by Satoshi Iwaki was used for editing .MD files.
+
+[AutoPrefixer](https://autoprefixer.github.io/) was used to add browser specifc prefixes.
 
 ## Testing
     "For all testing, please refer to the [TESTING.md](TESTING.md) file."
 ## Deployment
-    document all necessary steps you did in order to deploy this project (GitHub Pages, Heroku, etc.)
+
+The Motu Lani site was deployed to GitHub pages using the following steps:
+
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The live link can be found at [https://ancfoster.github.io/Motu-Lani/index.html](https://ancfoster.github.io/Motu-Lani/index.html)
+
 ### Local Deployment
     document all the necessary steps someone else can take in order to make a local copy of your project, like cloning, forking, etc.
 ## Credits
-    explain about any particular places you took inspiration from
+
 ### Content
 I used an acessibiility guide provided by [Orange](https://a11y-guidelines.orange.com/en/articles/accessible-svg/) on how to provide screen-reader support for an inline SVG.
 
-I used a code snippet from StackOverflow user [Elad Amsaalem](https://stackoverflow.com/questions/11671100/scale-path-from-center) to properly scale an SVG path element.
+I used a code snippet from StackOverflow user [Elad Amsaalem](https://stackoverflow.com/questions/11671100/scale-path-from-center) on how to properly scale an SVG path element.
 
 ```.scaled-path-svg { svg { path {transform-origin: center; transform: cale(1.1); } } } ```
 
@@ -85,84 +93,132 @@ I used a code snippet from StackOverflow user [Elad Amsaalem](https://stackoverf
 #### Home Page
 
 Video Background
-https://www.pexels.com/video/beach-waves-rushing-to-shore-4611805/
+[https://www.pexels.com/video/beach-waves-rushing-to-shore-4611805/](url)
 
-Resort Image
-https://www.pexels.com/photo/brown-wooden-dock-on-body-of-water-1724438/
+Gallery Resort Image
+[https://www.pexels.com/photo/picturesque-view-of-tropical-island-7832616/](url)
+
+Gallery Outrigger Image
+[https://www.pexels.com/photo/man-riding-on-boat-holding-brown-paddle-1170807/](url)
+
+Gallery Restaurant Image
+[https://www.pexels.com/photo/brown-wooden-dock-on-body-of-water-1724438/](url)
+
+Gallery Bridge Image
+[https://www.pexels.com/photo/a-couple-walking-on-the-bridge-9149366/](url)
+
+Gallery Sunset Image
+[https://www.pexels.com/photo/silhouette-photo-couple-kissing-each-other-during-sunset-1024982/](url)
 
 Accommodation Image – Over Water Bungalows
-https://www.pexels.com/photo/aerial-photography-of-bungalows-1287460/ 
+[https://www.pexels.com/photo/aerial-photography-of-bungalows-1287460/ ](url)
 
 Activities Scuba Image
-https://www.pexels.com/photo/person-takes-photo-of-tortoise-1645028/
+[https://www.pexels.com/photo/person-takes-photo-of-tortoise-1645028/](url)
 
 Cuisine Image Lobster
-https://www.pexels.com/photo/seafood-on-bowl-2532439/ 
+[https://www.pexels.com/photo/seafood-on-bowl-2532439/ ](url)
 
 Contact Island Image
-https://www.pexels.com/photo/beach-vacation-relaxation-ocean-7079776/ 
+[https://www.pexels.com/photo/beach-vacation-relaxation-ocean-7079776/ ](url)
 
 #### Activities Page
 Header Background Scuba Turtle
-https://www.pexels.com/photo/person-takes-photo-of-tortoise-1645028/
+[https://www.pexels.com/photo/person-takes-photo-of-tortoise-1645028/](url)
 
 Two Tank Snorkel Image
-https://www.pexels.com/photo/man-in-black-diving-suit-in-water-7169293/ 
+[https://www.pexels.com/photo/man-in-black-diving-suit-in-water-7169293/ ](url)
 
 Coral Garden
-https://www.pexels.com/photo/scenic-photo-of-coral-reef-3157890/ 
+[https://www.pexels.com/photo/scenic-photo-of-coral-reef-3157890/ ](url)
 
 Sunset Cruise
-https://www.pexels.com/photo/full-sunset-over-boat-on-sea-10085110/ 
+[https://www.pexels.com/photo/full-sunset-over-boat-on-sea-10085110/ 
+](url)
 
 Fire Dancing
-https://www.pexels.com/photo/a-man-in-hawaiian-traditional-fire-dance-7226891/
+[https://www.pexels.com/photo/a-man-in-hawaiian-traditional-fire-dance-7226891/](url)
 
 Pearl Farm
-https://www.flickr.com/photos/bruchez/7185806319
+[https://www.flickr.com/photos/bruchez/7185806319
+](url)
 
 Massage 1
-https://www.pexels.com/photo/a-woman-having-a-massage-6663361/ 
+[https://www.pexels.com/photo/a-woman-having-a-massage-6663361/ ](url)
 
 Massage 2
-https://www.pexels.com/photo/black-stones-on-woman-s-back-5378218/ 
+[https://www.pexels.com/photo/black-stones-on-woman-s-back-5378218/ ](url)
 
 #### Accommodation Page
 
 Header Background Image
-https://www.pexels.com/photo/huts-near-body-of-water-1506836/ 
+[https://www.pexels.com/photo/huts-near-body-of-water-1506836/ ](url)
+
+Residence G1
+[https://www.pexels.com/photo/a-beautiful-floating-villa-9482135/ ](url)
+
+Residence G2
+[https://www.pexels.com/photo/a-beautiful-floating-villa-9482135/](url)
+
+Residence G5
+[https://www.pexels.com/photo/infinity-pool-near-beach-3155666/](url)
+
+Residence G4
+[https://upload.wikimedia.org/wikipedia/commons/5/5a/FPO_BOR_126.jpg](url)
+
+Residence G3
+[https://cdn.pixabay.com/photo/2015/03/18/21/20/sunrise-680031_1280.jpg](url)
+
+Bungalow G1
+[https://www.pexels.com/photo/cluster-of-beige-huts-above-water-1287454/](url)
+
+Bungalow G2
+[https://www.pexels.com/photo/brown-wicker-chairs-and-table-beside-body-of-water-2549018/ ](url)
+
+Bungalow G3
+[https://www.pexels.com/photo/hotel-house-architecture-inside-7587866/ ](url)
+
+Bungalow G4
+[https://www.pexels.com/photo/woman-leaning-on-handrail-in-room-1838554/ ](url)
+
 
 #### Cuisine Page 
 
 Elements Restaurant Image
-https://www.pexels.com/photo/brown-wooden-table-and-chairs-on-beach-3660229/ 
+[https://www.pexels.com/photo/brown-wooden-table-and-chairs-on-beach-3660229/ ](url)
 
 East Meets West Image
-https://www.pexels.com/photo/dish-on-ceramic-plates-2792186/
-
+[https://www.pexels.com/photo/dish-on-ceramic-plates-2792186/](url)
 
 Header Image
-
-https://www.pexels.com/photo/sushi-roll-on-tray-and-table-3475617/
-
+[https://www.pexels.com/photo/sushi-roll-on-tray-and-table-3475617/](url)
 
 Lobster Image
-https://www.pexels.com/photo/seafood-on-bowl-2532439/ 
+[https://www.pexels.com/photo/seafood-on-bowl-2532439/ ](url)
 
 Room Service
-https://www.pexels.com/photo/food-photography-breakfast-on-bread-illustration-196668/ 
+[https://www.pexels.com/photo/food-photography-breakfast-on-bread-illustration-196668/ ](url)
 
 #### Booking Page
 
 Header background
-https://www.pexels.com/photo/picturesque-view-of-tropical-island-7832616/
+[https://www.pexels.com/photo/picturesque-view-of-tropical-island-7832616/](url)
+
+Residence thumbnail
+[https://www.pexels.com/photo/a-beautiful-floating-villa-9482135/ ](url)
+
+Bungalow thumbnail
+[https://www.pexels.com/photo/cluster-of-beige-huts-above-water-1287454/](url)
+
 
 #### Contact Page
 Header Image background
-https://www.pexels.com/photo/beach-vacation-relaxation-ocean-7079776/
+[https://www.pexels.com/photo/beach-vacation-relaxation-ocean-7079776/](url)
 
+Plane Image [https://www.pexels.com/photo/plane-on-sandy-beach-near-sea-7832609/](url)
 
+#### Icons
+Footer social icons, back-to-top arrow icon and telephone icon are from [Iconmonstr](https://iconmonstr.com)
 
 ### Acknowledgements
-    list out any acknowledgements you have, if any... tutor support? fellow Slack student help? spouse, loved one, family member, etc.
-TESTING.md file (ideally, separate from the README.md file, but also at root-level same as the readme and index files)
+I would like to thank my Code Institute mentor Tim Nelson for providing invaluable guidance duirng the development of this project. I also wish to thank my wife Alice for helping me by testing the Moti Lani site and prodiving user feedback.
