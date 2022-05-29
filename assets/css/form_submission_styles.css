@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
 html {
     height: 100%;
 }
@@ -69,29 +76,58 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     width: 90%;
     max-width: 440px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 #tick {
-    animation: tick-animate;
-    animation-duration: 0.5s;
-    animation-delay: 0.2s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
+    -webkit-animation: tick-animate;
+            animation: tick-animate;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+}
+@-webkit-keyframes tick-animate {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+    100% {
+        opacity: 1.0;
+        -webkit-transform: scale(1.0);
+                transform: scale(1.0);
+    }
+    
 }
 @keyframes tick-animate {
     0% {
         opacity: 0;
-        transform: scale(0);
+        -webkit-transform: scale(0);
+                transform: scale(0);
     }
     100% {
         opacity: 1.0;
-        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+                transform: scale(1.0);
     }
     
 }

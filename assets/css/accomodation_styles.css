@@ -1,3 +1,11 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
+/* Activities Page Styles */
 #accomodation-header-background {
     background-image: url("../images/accomodation_header.jpeg");
 }
@@ -10,15 +18,25 @@
     display: block;
 }
 #two-col-list {
-    column-count: 2;
-    column-rule-width: 1px;
-    column-rule-color: none;
-    column-width: 50%;
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+    -webkit-column-rule-width: 1px;
+       -moz-column-rule-width: 1px;
+            column-rule-width: 1px;
+    -webkit-column-rule-color: none;
+       -moz-column-rule-color: none;
+            column-rule-color: none;
+    -webkit-column-width: 50%;
+       -moz-column-width: 50%;
+            column-width: 50%;
 }
 #accomodation-features ul {
     padding: 0;
     margin: 0;
-    column-span: 2;
+    -webkit-column-span: 2;
+       -moz-column-span: 2;
+            column-span: 2;
 }
 #accomodation-features ul li {
     list-style: none;
@@ -38,33 +56,54 @@
     background-size: contain;
 }
 .acco-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .acco-flex-group:nth-child(even) {
-    flex-flow: row-reverse;   
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: row-reverse;
+            flex-flow: row-reverse;   
 }
 .acco-flex-group {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 16px 0;
 }
 .acco-flex-group div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .acco-flex-group img {
     width: 60%;
     height: auto;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin: 8px 16px;
     -webkit-box-shadow: 1px 1px 16px 0px rgba(0,0,0,0.3); 
     box-shadow: 1px 1px 16px 0px rgba(0,0,0,0.3);
 }
 .acco-flex-group p {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 0 8px;
     margin: 8px;
 }
@@ -91,7 +130,10 @@
 /* Accomodation Media Queries */
 @media screen and (max-width: 720px) {
     .acco-flex-group {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding: 8px 0 0 0;
     }
     .acco-flex-group img {
@@ -105,7 +147,10 @@
         margin: 8px 0;
     }
     .acco-flex-group:nth-child(even) {
-        flex-flow: column;   
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;   
     }
     .sleeps {
         padding: 8px;
@@ -118,15 +163,25 @@
 }
 @media screen and (max-width: 620px) {
     #two-col-list {
-        column-count: 1;
-        column-rule-width: none;
-        column-rule-color: none;
-        column-width: 100%;
+        -webkit-column-count: 1;
+           -moz-column-count: 1;
+                column-count: 1;
+        -webkit-column-rule-width: none;
+           -moz-column-rule-width: none;
+                column-rule-width: none;
+        -webkit-column-rule-color: none;
+           -moz-column-rule-color: none;
+                column-rule-color: none;
+        -webkit-column-width: 100%;
+           -moz-column-width: 100%;
+                column-width: 100%;
     }
     #accomodation-features ul {
         padding: 0;
         margin: 0;
-        column-span: 1;
+        -webkit-column-span: 1;
+           -moz-column-span: 1;
+                column-span: 1;
     }
     
 }

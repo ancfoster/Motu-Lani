@@ -1,17 +1,32 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
 /* Contact Page Styles */
 #contact-header-background {
     background-image: url("../images/contact_header.jpeg");
 }
 .call-us {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 0;
 }
 #call-us-h2 {
-    margin-block-start: 8px;
-    margin-block-end: 8px;
+    -webkit-margin-before: 8px;
+            margin-block-start: 8px;
+    -webkit-margin-after: 8px;
+            margin-block-end: 8px;
 }
 .call-us div {
     width: 50%;
@@ -32,27 +47,41 @@
 #getting-here {
     background-color: #cce6ef;
     position: relative;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 16px 16px 24px 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     margin-bottom: 24px;
 }
 #getting-here-info p {
     color: #111;
 }
 #getting-here svg {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
     max-width: fit-content;
     width: 50%;
     height: auto;
     margin: auto;
 }
 #getting-here-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 0 8px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 50%;
 }
 #getting-here-info img {
@@ -64,30 +93,56 @@
     stroke:#088073;
     stroke-miterlimit: 10;
     stroke-width: 24px;
-    animation: map-pulse;
-    animation-iteration-count: infinite;
-    animation-duration: 2.2s;
-    animation-timing-function: ease-out;
+    -webkit-animation: map-pulse;
+            animation: map-pulse;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 2.2s;
+            animation-duration: 2.2s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
     fill: none;
-    transform-origin: 884.5px 255.5px;
+    -webkit-transform-origin: 884.5px 255.5px;
+        -ms-transform-origin: 884.5px 255.5px;
+            transform-origin: 884.5px 255.5px;
+}
+@-webkit-keyframes map-pulse {
+    0% {
+        opacity: 0.36;
+        -webkit-transform: scale(1.0);
+                transform: scale(1.0);
+    }
+    100% {
+        opacity: 0.0;
+        -webkit-transform: scale(1.8);
+                transform: scale(1.8);
+    }
 }
 @keyframes map-pulse {
     0% {
         opacity: 0.36;
-        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+                transform: scale(1.0);
     }
     100% {
         opacity: 0.0;
-        transform: scale(1.8);
+        -webkit-transform: scale(1.8);
+                transform: scale(1.8);
     }
 }
 #form-container {
     width: 100%;
     margin: 0 0 24px 0;
     background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 24px;
 }
 .stage-counter {
@@ -105,9 +160,16 @@
     line-height: 48px;
 }
 #form-container form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
     text-align: center;
 }
@@ -209,7 +271,10 @@
 /* Contact Media Queries */ 
 @media screen and (max-width:720px) {
     #getting-here {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding: 16px;
     }
     #getting-here-info {
