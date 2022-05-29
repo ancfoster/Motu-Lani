@@ -35,37 +35,53 @@ I took an image that represented the aesthetics I had in mind for the Motu Lani 
 
 ![Motu Lani Colours](readme_assets/images/colour.png "Motu Lani Colours")
 
-### User Stories (optional for your project, but if you have a few you could add, then fantastic!)
+#### User Stories (optional for your project, but if you have a few you could add, then fantastic!)
     bulletpoint any user stories you have... "As a user, I would like to __________", etc.
-### Colour Scheme
-    explain your colors, etc.... perhaps use coolors.co? to generate an image palette
-### Typography
-    explain any fonts and icon libraries used, like font-awesome and google fonts
-### Wireframes
+#### Typography
+Motu Lani makes use of three font families from [Adobe Fonts](https://fonts.adobe.com)
+
+- [Charcuterie Contrast](https://fonts.adobe.com/fonts/charcuterie-contrast) is used for the logo
+- [Granville](https://fonts.adobe.com/fonts/granville) is used for headings
+- [DJR Forma Display](https://fonts.adobe.com/fonts/forma-djr-display) is used for paragraphs of text.
+
+![Motu Lani Colours](readme_assets/images/typography.png "Motu Lani Typography")
+
+#### Wireframes
      include screenshots of your wireframes (consider the markdown table format)
 ## Features
     briefly explain the project
 ### Existing Features
     list out all of your project's features, and make sure to include a screenshot of each!!
 ### Features Left to Implement
-    have ideas on what you'd like to add in the future? add them here!! assessors LOVE seeing future concepts!
+
+- Currently the website has a booking form where users can submit booking requests. What would really enhance the project is to add a live booking system, where users can see dynamic pricing + availability and to make a booking themselves.
+- Adding live chat functionality as a contact option.
+- Website blog so that the Motu Lani resort can keep former and prospective guests updated on resort developments.
+
 ## Technologies Used
 
-For wriritng code and Git commands I used Visual Studio Code [https://code.visualstudio.com/](url)
+The Motu Lani projected was created using the following technologies:
+- HTML - hypertext markup language is the standard language for designing files to be displayed in a web browser like Chrome or Safari. The most recent of HTML is version 5 which is what the Motu Lani project uses.
 
-GitHub [https://github.com](url)
+- CSS - cascading style sheets is a language used for styling a file written in a markup language like HTML.
 
-    explain various tech used, such as HTML, CSS, Gitpod/VSCode, GitHub, Git, etc. - add a link to each respective site as well, if possible
+- JavaScript (ES11) is a scripting language and one of the main technologies of web development. In Motu Lani it was used to implement a responsive mobile navigation system with animated burger icon, add a date to the copyright disclaimer and to conrol +/- form control. 
+
 ## Tools Used
-[TinyPNG](https://tinypng.com) was used to optimise all .JPEG and .PNG images used in the project to ensure efficient loading for the end user.
 
-Adobe Illustrator was used for vector graphic design, like for the logo and coral reef list bullets.
+- For writing code I used [Visual Studio Code](https://code.visualstudio.com/) which I also for Git commands and pushing to GitHub
 
-Figma was used to create high fidelity mockups before I started coding. 
+- [GitHub](https://github.com]) was used for hosting the online repository, it provides an online version of Git, a source code management tool.
 
-[Markdown Editor](https://apps.apple.com/ie/app/markdown-editor/id1458220908?mt=12) by Satoshi Iwaki was used for editing .MD files.
+- [TinyPNG](https://tinypng.com) was used to optimise all .JPEG and .PNG images used in the project to ensure efficient loading for the end user.
 
-[AutoPrefixer](https://autoprefixer.github.io/) was used to add browser specifc prefixes.
+- Adobe Illustrator was used for vector graphic design, like for the logo, coral reef list bullets and map.
+
+- [Figma](https://figma.com) was used to create high fidelity mockups before I started coding. 
+
+- [Markdown Editor](https://apps.apple.com/ie/app/markdown-editor/id1458220908?mt=12) by Satoshi Iwaki was used for editing .MD files.
+
+- [AutoPrefixer](https://autoprefixer.github.io/) was used to add browser specifc prefixes.
 
 ## Testing
     "For all testing, please refer to the [TESTING.md](TESTING.md) file."
@@ -87,7 +103,7 @@ I used an acessibiility guide provided by [Orange](https://a11y-guidelines.orang
 
 I used a code snippet from StackOverflow user [Elad Amsaalem](https://stackoverflow.com/questions/11671100/scale-path-from-center) on how to properly scale an SVG path element.
 
-```.scaled-path-svg { svg { path {transform-origin: center; transform: cale(1.1); } } } ```
+```.scaled-path-svg { svg { path {transform-origin: center; transform: scale(1.1); } } } ```
 
 ### Media
 #### Home Page
