@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="island resort, french polynesia, resort hotel, pacific resort">
-    <link rel="stylesheet" href="https://use.typekit.net/ndv7spf.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/home_styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ndv7spf.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
     <title>Welcome to your paradise in the heart of the Pacific | Motu Lani</title>
     <meta name="description" content="Motu Lani is a six-star luxury private island resort in French Polynesia">
@@ -72,19 +72,49 @@
                 <source src="assets/video/video_background.mp4" playsinline type="video/mp4">
             </video>
         </div>
-        <div id="hero-flex">
+        <section id="hero-flex">
             <img src="assets/images/reef_icon.svg" alt="Moto Lani Reef Logo">
             <h1>Welcome to your paradise, in the heart of the Pacific.</h1>
             <h3>Our five star eco resort located on the Lani Motu in French Polynesia.</h3>
-        </div>
+            <div id="hp-book-now">
+                <a href="booking.html">Book Now</a>
+            </div>
+        </section>
     </div>
-   <div id="hp-explore">
+    <section id="hp-explore">
        <h2>Explore the Island</h2>
        <p>
         Motu Lani is a unique private island resort that is part of French Polynesia’s breathtakingly beautiful Tuamotu Archipelago. Motu Lani offers carefree luxury in the midst of pristine nature. With access to the island by private plane, the resort features 24 villas on white-sand beaches frequented by sea turtles, manta rays and exotic birds. The resort was designed to reflect Polynesian lifestyles and culture.
        </p>
-   </div>
-   <div class="hp-quad-container">    
+       </div>
+    </section>
+    <section id="hp-gallery-container" aria-label="Image Gallery">
+        <div id="hp-gallery">
+            <div class="hp-gallery-item" id="gallery1">
+                <img alt="Gallery Image 1 - Aerial view of Motu Lani" src="assets/images/home_gallery_1.jpeg">
+            </div>
+            <div class="hp-gallery-item" id="gallery2">
+                <img alt="Gallery Image 2 - Polynesian Outrigger" src="assets/images/home_gallery_2.jpeg">
+            </div>    
+            <div class="hp-gallery-item" id="gallery3">
+                <img alt="Gallery Image 3 - Polynesian Outrigger" src="assets/images/home_gallery_3.jpeg">
+            </div>
+            <div class="hp-gallery-item" id="gallery4">
+                <img alt="Gallery Image 4 - Polynesian Outrigger" src="assets/images/home_gallery_4.jpeg">
+            </div>
+            <div class="hp-gallery-item" id="gallery5">
+                <img alt="Gallery Image 5 - Polynesian Outrigger" src="assets/images/home_gallery_5.jpeg">
+            </div>        
+        </div>
+        <div id="gallery-navigation" tabindex="0">
+            <a href="#gallery1"><img alt="Go to Gallery Image 1" src="assets/images/home_gallery_1_thumb.jpeg"></a>
+            <a href="#gallery2"><img alt="Go to Gallery Image 2" src="assets/images/home_gallery_2_thumb.jpeg"></a>
+            <a href="#gallery3"><img alt="Go to Gallery Image 3" src="assets/images/home_gallery_3_thumb.jpeg"></a>
+            <a href="#gallery4"><img alt="Go to Gallery Image 4" src="assets/images/home_gallery_4_thumb.jpeg"></a>
+            <a href="#gallery5"><img alt="Go to Gallery Image 5" src="assets/images/home_gallery_5_thumb.jpeg"></a>
+        </div>
+    </section>
+    <div id="hp-quad-container">    
         <div class="quad-item" id="quad-accomodation">
             <div class="quad-button">
                 <a href="accomodation.html">
@@ -117,7 +147,7 @@
             </div>
             <div class="quad-gradient"></div>
         </div>
-   </div>
+    </div>
     <footer>
         <div id="footer-container">
             <div id="footer-two-column">
@@ -141,5 +171,6 @@
         </div>
     </footer>    
 <script src="assets/javascript/scripts.js"></script>
+</script>
 </body>
 </html>

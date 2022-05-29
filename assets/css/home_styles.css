@@ -9,13 +9,13 @@
     width: 100%;
     grid-auto-columns: 1fr;
     grid-template-rows: 1fr;
-    min-height: 400px;
+    min-height: 480px;
 }
 #video-container {
     overflow: hidden;
     box-sizing: border-box;
     max-width: 100vw;
-    max-height: 440px;
+    max-height: 480px;
     filter: brightness(70%);
     display: grid;
     grid-column: 1 / span 1;
@@ -56,10 +56,35 @@
     margin: 0 16px 0 16px;
     text-shadow: 1px 1px 8px rgba(0,0,0,0.45);
 }
+#hp-book-now {
+    width: 180px;
+    background-color: #2C4039;
+    border: 1px solid #fff;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: granville, Times, serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 8px;
+    margin: 24px auto 0 auto;
+    display: none;
+}
+#hp-book-now a {
+    color: #fff;
+    text-decoration: none;
+}
+#hp-book-now a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+#hp-book-now a:visited {
+    color: #fff;
+    text-decoration: none;
+}
 #hp-explore {
     width: 100%;
     box-sizing: border-box;
-    padding: 24px 16px 24px 16px;
+    padding: 24px 24px;
     background-color: #0E6E66;
     display: flex;
     flex-direction: column;
@@ -76,7 +101,55 @@
     max-width: 768px;
     width: 80%;
 }
-.hp-quad-container {
+#hp-gallery-container {
+    background-color: #0E6E66;
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box
+}
+#hp-gallery {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none !important;
+    position: relative;
+}
+#hp-gallery::-webkit-scrollbar {
+    display: none !important;
+}
+#gallery-navigation {
+    margin-top: 16px;
+}
+#gallery-navigation a img {
+    width: 52px;
+    height: 36px;
+    padding: 0 6px;
+}
+.hp-gallery-item {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    background-color: pink;
+    height: 300px;
+    justify-content: center;
+    position: relative;
+    scroll-snap-align: start;
+    transition: transform 0.5s;
+    width: 100%;
+    overflow: hidden;
+}
+.hp-gallery-item img {
+    width: 100%;
+    height: auto;
+}
+#hp-quad-container {
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -162,6 +235,9 @@
     }
     #hero-flex h3 {
         font-size: 1.0rem;
+    }
+    #hp-book-now {
+        display: block;
     }
 }
 @media screen and (max-width: 560px) {
