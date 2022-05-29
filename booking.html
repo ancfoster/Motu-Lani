@@ -91,7 +91,7 @@
                 <label for="booking_phone">Phone Number *</label>
                 <input type="tel" id="booking_phone" required name="booking_phone">
                 <label for="booking_country">Country of Residence*</label>
-                <select id="country" aria-placeholder="Select your country of residence" name="country" required>
+                <select id="booking_country" name="booking_country" required>
                     <option value="" disabled selected>Select your country of residence</option>
                     <option value="Afghanistan">Afghanistan</option>
                     <option value="Aland Islands">Aland Islands</option>
@@ -359,23 +359,23 @@
                     </div>
                 </div>
                 <div class="stage-counter">3</div>
-                <label id="party_size_label" for="booking_party_size">Party Size</label>
+                <label id="party_size_label" for="booking_size">Party Size</label>
                 <div id="party-size-flex">
                     <button type="button" class="party-size-button" aria-label="Increase party size" id="size-minus">-</button>
-                    <input type="number" min="1" max="6" value="2" readonly="readonly" id="booking_size" name="booking_party_size">
+                    <input type="number" min="1" max="6" value="2" readonly="readonly" id="booking_size" name="booking_size">
                     <button type="button" aria-label="crease party size" class="party-size-button" id="size-plus">+</button>
                 </div>
                 <div class="stage-counter">4</div>
                 <h3>Accomodation Preferences</h3>
                 <div id="accomo-flex">
                     <div class="accomo-col">
-                        <img src="assets/images/booking_bungalow.jpeg" alt="Motu Lani Bungalow" load="lazy">
+                        <img src="assets/images/booking_bungalow.jpeg" alt="Motu Lani Bungalow" loading="lazy">
                         <label for="bungalow">Bungalow</label>
-                        <input type="radio" checked="checked" aria-checked="true" required id="bungalow" name="booking_accomodation">
+                        <input type="radio" checked="checked" required id="bungalow" name="booking_accomodation">
                         <span class="sleeps">Sleeps up to 4</span>
                     </div>
                     <div class="accomo-col">
-                        <img src="assets/images/booking_residence.jpeg" alt="Motu Lani Bungalow" load="lazy">
+                        <img src="assets/images/booking_residence.jpeg" alt="Motu Lani Bungalow" loading="lazy">
                         <label for="residence">Residence</label>
                         <input  type="radio" id="residence" name="booking_accomodation">
                         <span class="sleeps">Sleeps up to 6</span>
@@ -394,8 +394,8 @@
             <div id="footer-two-column">
                 <div id="footer-newsletter-cont">
                     <form action="form_submission.html">
-                        <label id="footer-heading" for="footer-email-address">Subscribe to our newsletter</label><br><br>
-                        <input name="footer-email-address" id="email-address-footer" required type="email" aria-placeholder="Enter your email address here to subscribe to our newsletter">
+                        <label id="footer-heading" for="email-address-footer">Subscribe to our newsletter</label><br><br>
+                        <input required name="email-address-footer" id="email-address-footer" type="email" aria-placeholder="Enter your email address here to subscribe to our newsletter">
                         <input type="submit" id="footer-submit" value="Subscribe">
                     </form>
                     <div id="footer-social-icons">
