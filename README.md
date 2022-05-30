@@ -19,7 +19,15 @@ This section outlines the design process and design thinking that occured when d
 
 ### UX Design
 
-#### User stories
+#### User Stories
+
+- As a user, I would like to see what accomodation is available at Motu Lani.
+
+- As a user, I would like to learn about the food and activities available at the Motu Lani resort.
+
+- As a user, I would like to make a booking request with Motu Lani.
+
+- As a user, I would like to learn how to get to Motu Lani.
 
 #### Competitor Analysis
 To inform the design process I conducted a competitor analysis to inform the UX decision making. 
@@ -36,9 +44,6 @@ The three tasks were:
 
 [Mobile wireframes can be viewed here](readme_assets/mobile_wireframes.pdf)
 
-#### High fidelity mockups
-Before building Motu Lani mockups were made in Figma to work from.
-
 ### Visual Design
 
 #### Moodboard
@@ -51,8 +56,6 @@ I took an image that represented the aesthetics I had in mind for the Motu Lani 
 
 ![Motu Lani Colours](readme_assets/images/colour.png "Motu Lani Colours")
 
-#### User Stories (optional for your project, but if you have a few you could add, then fantastic!)
-    bulletpoint any user stories you have... "As a user, I would like to __________", etc.
 #### Typography
 Motu Lani makes use of three font families from [Adobe Fonts](https://fonts.adobe.com)
 
@@ -64,10 +67,31 @@ Motu Lani makes use of three font families from [Adobe Fonts](https://fonts.adob
 
 For the logo and headings I selected typefaces that had a Polynesian aesthetic. This wouldn't have been appropriate for paragraphs of text where legibility and uniformity is more important. 
 
+#### High fidelity mockups
+Before building Motu Lani mockups were made in Figma to work from.
+
 ## Features
-    briefly explain the project
+
+The Motu Lani project involved building a response website that would work accross mobile, tablet and desktop. The website allows users to learn more about the Motu Lani resort and perform tasks like subscribe to their email newsletter, send an enquiry and make a reservation request. 
+
 ### Existing Features
-    list out all of your project's features, and make sure to include a screenshot of each!!
+
+- **Primary Navigation (on all pages except form_submission.html)**
+	- There is a responsive navigation system. On larger screen devices a navigation menu is present below the logo providing quick access to the site's pages. On smaller screens a burger menu icon appears, when this is pressed by the user they enter a full screeen navugation menu which can be retracted by pressing the close button.
+	- The navigation system allows the user to easily navigate between different pages. The layout encourages page discovery.
+	- The navigation features a call-to-action, this will make easy for users to quickly find the page to make a booking. This should help increase conversion for the Motu Lani resort owners.
+
+	![Desktop Navigation](readme_assets/images/desktop_navigation.png "Desktop Navigation")
+
+	![Mobile Navigation](readme_assets/images/mobile_navigation.png "Mobile")
+
+
+- **Newsletter form (on all pages except form_submission.html)**
+	- In the footer there is a form that allows users to subscribe to the Motu Lani newsletter. 
+	- This is beneficial to site visitors as it provides a simple mechanism for them to easily stay up to date with Motu Lani developments and receive special offers.
+	- The subscribe to newsletter feature will help the Motu Lani owners with their digital marketing efforts.
+	![Footer newsletter form](readme_assets/images/email_footer.png "Footer newsletter form")
+
 ### Features Left to Implement
 
 - Currently the website has a booking form where users can submit booking requests. What would really enhance the project is to add a live booking system, where users can see dynamic pricing + availability and to make a booking themselves.
