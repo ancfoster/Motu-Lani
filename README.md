@@ -19,6 +19,8 @@ This section outlines the design process and design thinking that occured when d
 
 ### UX Design
 
+#### User stories
+
 #### Competitor Analysis
 To inform the design process I conducted a competitor analysis to inform the UX decision making. 
 
@@ -28,11 +30,20 @@ The three tasks were:
 2) Look for information about the accomodation
 3) Make a booking request
 
+#### Wireframes
+
+[Desktop wireframes can be viewed here](readme_assets/desktop_wireframes.pdf)
+
+[Mobile wireframes can be viewed here](readme_assets/mobile_wireframes.pdf)
+
+#### High fidelity mockups
+Before building Motu Lani mockups were made in Figma to work from.
+
 ### Visual Design
 
 #### Moodboard
 
-Before proceeding with creating the visual design I developed a [moodboard](readme_assets/moodbiard.pdf) to draw inspiration from.
+Before proceeding with creating the visual design I developed a [moodboard](readme_assets/moodboard.pdf) to draw inspiration from.
 
 #### Colour Scheme
 
@@ -53,10 +64,6 @@ Motu Lani makes use of three font families from [Adobe Fonts](https://fonts.adob
 
 For the logo and headings I selected typefaces that had a Polynesian aesthetic. This wouldn't have been appropriate for paragraphs of text where legibility and uniformity is more important. 
 
-![Polynesian Characters](readme_assets/images/polynesian_characters.png "Polynesian Characters")
-
-#### Wireframes
-     include screenshots of your wireframes (consider the markdown table format)
 ## Features
     briefly explain the project
 ### Existing Features
