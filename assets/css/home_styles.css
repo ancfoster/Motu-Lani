@@ -147,7 +147,7 @@
     max-width: 1000px;
     margin: 16px auto;
     grid-auto-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(80px);
+    grid-template-rows: 80px;
     box-sizing: border-box;
     position: relative;
     row-gap: 24px;
