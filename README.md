@@ -1,6 +1,6 @@
 # Motu Lani
 
--- responsive image
+![Motu Lani on different devices](readme_assets/images/responsive.png "Motu Lani on different devices")
 
 The Motu Lani site was built to fufill the goals of two stakeholders, the owners of the Motu Lani Resort and consumers looking for a luxury vacation in the Pacific.
 
@@ -29,6 +29,11 @@ The three tasks were:
 3) Make a booking request
 
 ### Visual Design
+
+#### Moodboard
+
+Before proceeding with creating the visual design I developed a [moodboard](readme_assets/moodbiard.pdf) to draw inspiration from.
+
 #### Colour Scheme
 
 I took an image that represented the aesthetics I had in mind for the Motu Lani design system and uploaded to it Adobe Creative Cloud where a colour palette was then generated.
@@ -44,7 +49,11 @@ Motu Lani makes use of three font families from [Adobe Fonts](https://fonts.adob
 - [Granville](https://fonts.adobe.com/fonts/granville) is used for headings
 - [DJR Forma Display](https://fonts.adobe.com/fonts/forma-djr-display) is used for paragraphs of text.
 
-![Motu Lani Colours](readme_assets/images/typography.png "Motu Lani Typography")
+![Motu Lani Type](readme_assets/images/typography.png "Motu Lani Typography")
+
+For the logo and headings I selected typefaces that had a Polynesian aesthetic. This wouldn't have been appropriate for paragraphs of text where legibility and uniformity is more important. 
+
+![Polynesian Characters](readme_assets/images/polynesian_characters.png "Polynesian Characters")
 
 #### Wireframes
      include screenshots of your wireframes (consider the markdown table format)
