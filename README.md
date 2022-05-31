@@ -29,15 +29,6 @@ This section outlines the design process and design thinking that occured when d
 
 - As a user, I would like to learn how to get to Motu Lani.
 
-#### Competitor Analysis
-To inform the design process I conducted a competitor analysis to inform the UX decision making. 
-
-I looked at three competing island-resort websites. I performed three tasks and analysed what each website did well, didn't do well and if there were any pain points. 
-The three tasks were:
-1) Get a taste for the island-resort and to learn what kind of experience is offered based on how the website is presented.
-2) Look for information about the accomodation
-3) Make a booking request
-
 #### Wireframes
 
 [Desktop wireframes can be viewed here](readme_assets/desktop_wireframes.pdf)
@@ -68,7 +59,11 @@ Motu Lani makes use of three font families from [Adobe Fonts](https://fonts.adob
 For the logo and headings I selected typefaces that had a Polynesian aesthetic. This wouldn't have been appropriate for paragraphs of text where legibility and uniformity is more important. 
 
 #### High fidelity mockups
+
 Before building Motu Lani mockups were made in Figma to work from.
+
+![High fidelity mockups](readme_assets/images/mockups.png "High fidelity mockups")
+
 
 ## Features
 
@@ -176,7 +171,7 @@ The Motu Lani projected was created using the following technologies:
 - [AutoPrefixer](https://autoprefixer.github.io/) was used to add browser specifc prefixes.
 
 ## Testing
-    "For all testing, please refer to the [TESTING.md](TESTING.md) file."
+- For all testing, please refer to the [TESTING.md](TESTING.md) file.
 ## Deployment
 
 The Motu Lani site was deployed to GitHub pages using the following steps:
