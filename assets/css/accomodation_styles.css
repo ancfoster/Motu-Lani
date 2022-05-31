@@ -31,7 +31,6 @@
 #accomodation-features ul {
     padding: 0;
     margin: 0;
-
 }
 #accomodation-features ul li {
     list-style: none;
@@ -86,10 +85,11 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 40%;
 }
 .acco-flex-group img {
     width: 60%;
-    height: auto;
+    height: auto !important;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     margin: 8px 16px;
@@ -101,6 +101,7 @@
             box-sizing: border-box;
     padding: 0 8px;
     margin: 8px;
+    width: 40%;
 }
 .sleeps {
     font-family: granville, Times, serif;
@@ -140,6 +141,10 @@
     .acco-flex-group p {
         padding: 8px 0;
         margin: 8px 0;
+        width: 100%;
+    }
+    .acco-flex-group div {
+        width: 100%;
     }
     .acco-flex-group:nth-child(even) {
         -webkit-box-orient: vertical;
@@ -166,6 +171,5 @@
         padding: 0;
         margin: 0;
 
-    }
-    
+    }    
 }
