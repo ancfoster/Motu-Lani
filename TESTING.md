@@ -6,7 +6,47 @@ Click to return back to the [README.md](README.md)
 
 | Browser | Screenshot |
 |---|---|
-|<img src="readme_assets/testing_images/chrome.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/chrome.png" width="48px" height="48px">|<img src="readme_assets/testing_images/chrome_index.jpeg" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/safari.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.jpeg" width="450px" height="auto">|
+
+- **accomodation.html**
+
+| Browser | Screenshot |
+|---|---|
+|<img src="readme_assets/testing_images/chrome.png" width="48px" height="48px">|<img src="readme_assets/testing_images/chrome_accomodation.jpeg" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/safari.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+
+- **activities.html**
+
+| Browser | Screenshot |
+|---|---|
+|<img src="readme_assets/testing_images/chrome.png" width="48px" height="48px">|<img src="readme_assets/testing_images/chrome_activities.jpeg" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/safari.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+
+- **cuisine.html**
+
+| Browser | Screenshot |
+|---|---|
+|<img src="readme_assets/testing_images/chrome.png" width="48px" height="48px">|<img src="readme_assets/testing_images/chrome_cuisine.jpeg" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/safari.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+
+- **contact.html**
+
+| Browser | Screenshot |
+|---|---|
+|<img src="readme_assets/testing_images/chrome.png" width="48px" height="48px">|<img src="readme_assets/testing_images/chrome_contact.jpeg" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/safari.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+
+- **booking.html**
+
+| Browser | Screenshot |
+|---|---|
+|<img src="readme_assets/testing_images/chrome.png" width="48px" height="48px">|<img src="readme_assets/testing_images/chrome_booking.jpeg" width="450px" height="auto">|
 |<img src="readme_assets/testing_images/safari.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
 |<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
 
