@@ -85,62 +85,57 @@ All CSS files have passed through the W3C validator.
 
 | Device | Screenshot |
 |---|---|
-| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_index.jpeg" width="450px" height="auto">|
-| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_index.jpeg" width="450px" height="auto"> |
-| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_index.jpeg" width="450px" height="auto"> |
-
-- **index.html**
-
-| Device | Screenshot |
-|---|---|
-| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="450px" height="auto">|
-| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="450px" height="auto"> |
-| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="450px" height="auto"> |
-
-- **index.html**
-
-| Device | Screenshot |
-|---|---|
-| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="450px" height="auto">|
-| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="450px" height="auto"> |
-| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="450px" height="auto"> |
-
-
+| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_index.jpeg" width="200px" height="auto">|
+| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_index.jpeg" width="200px" height="auto"> |
+| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_index.jpeg" width="200px" height="auto"> |
 
 - **accomodation.html**
 
 | Device | Screenshot |
 |---|---|
-| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="450px" height="auto">|
-| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="450px" height="auto"> |
-| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="450px" height="auto"> |
-
-
-- **index.html**
-
-| Device | Screenshot |
-|---|---|
-| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="450px" height="auto">|
-| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="450px" height="auto"> |
-| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="450px" height="auto"> |
-
+| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_accomodation.png" width="200px" height="auto">|
+| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_accomodation.png" width="200px" height="auto"> |
+| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_accomodation.png" width="200px" height="auto"> |
 
 - **index.html**
 
 | Device | Screenshot |
 |---|---|
-| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="450px" height="auto">|
-| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="450px" height="auto"> |
-| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="450px" height="auto"> |
+| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="200px" height="auto">|
+| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="200px" height="auto"> |
+| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="200px" height="auto"> |
+
+- **accomodation.html**
+
+| Device | Screenshot |
+|---|---|
+| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="200px" height="auto">|
+| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="200px" height="auto"> |
+| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="200px" height="auto"> |
 
 - **index.html**
 
 | Device | Screenshot |
 |---|---|
-| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="450px" height="auto">|
-| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="450px" height="auto"> |
-| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="450px" height="auto"> |
+| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="200px" height="auto">|
+| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="200px" height="auto"> |
+| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="200px" height="auto"> |
 
+- **index.html**
+
+| Device | Screenshot |
+|---|---|
+| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="200px" height="auto">|
+| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="200px" height="auto"> |
+| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="200px" height="auto"> |
+
+- **index.html**
+
+| Device | Screenshot |
+|---|---|
+| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="200px" height="auto">|
+| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="200px" height="auto"> |
+| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="200px" height="auto"> |
 
 ## User Story Testing (if you have user stories from the README)
     if so, just copy/paste your user stories here, and then provide a screenshot of each from the finished site, usually this is a combo of UserStory+Feature screenshot
