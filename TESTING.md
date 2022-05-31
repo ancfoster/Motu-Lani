@@ -80,7 +80,68 @@ All CSS files have passed through the W3C validator.
 |form_submission_styles.css|[Link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fancfoster.github.io%2FMotu-Lani%2Fassets%2Fcss%2Fform_submission_styles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)|
 
 ## Responsiveness
-    you must showcase proof with screenshots that you've tested the finished project on different device sizes, such as mobile, tablet, desktop.
+
+- **index.html**
+
+| Device | Screenshot |
+|---|---|
+| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="450px" height="auto">|
+| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="450px" height="auto"> |
+| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="450px" height="auto"> |
+
+- **index.html**
+
+| Device | Screenshot |
+|---|---|
+| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="450px" height="auto">|
+| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="450px" height="auto"> |
+| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="450px" height="auto"> |
+
+
+- **index.html**
+
+| Device | Screenshot |
+|---|---|
+| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_index.jpeg" width="450px" height="auto">|
+| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_index.jpeg" width="450px" height="auto"> |
+| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_index.jpeg" width="450px" height="auto"> |
+
+
+- **accomodation.html**
+
+| Device | Screenshot |
+|---|---|
+| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="450px" height="auto">|
+| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="450px" height="auto"> |
+| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="450px" height="auto"> |
+
+
+- **index.html**
+
+| Device | Screenshot |
+|---|---|
+| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="450px" height="auto">|
+| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="450px" height="auto"> |
+| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="450px" height="auto"> |
+
+
+- **index.html**
+
+| Device | Screenshot |
+|---|---|
+| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="450px" height="auto">|
+| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="450px" height="auto"> |
+| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="450px" height="auto"> |
+
+- **index.html**
+
+| Device | Screenshot |
+|---|---|
+| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="450px" height="auto">|
+| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="450px" height="auto"> |
+| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="450px" height="auto"> |
+
+
 ## User Story Testing (if you have user stories from the README)
     if so, just copy/paste your user stories here, and then provide a screenshot of each from the finished site, usually this is a combo of UserStory+Feature screenshot
 ## Unfixed Bugs
