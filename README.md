@@ -85,13 +85,65 @@ The Motu Lani project involved building a response website that would work accro
 
 	![Mobile Navigation](readme_assets/images/mobile_navigation.png "Mobile")
 
+- **Secondary Navigation**
+	- Pages with categories of content feature a secondary navigation in the header section. This is to provide the user with quick access to the category they are most intersted in and to prevent unecessary scrolling for the user. On browsers that support `scrolling:smooth` this navigation uses smooth scrolling for a better user experience.
+
+	<br>
+	<img src="readme_assets/images/second_nav1.png" alt="Secondary Navigation" width="400px"/>
+	<br>
+	<img src="readme_assets/images/second_nav2.png" alt="Secondary Navigation" width="400px"/>
 
 - **Newsletter form (on all pages except form_submission.html)**
 	- In the footer there is a form that allows users to subscribe to the Motu Lani newsletter. 
 	- This is beneficial to site visitors as it provides a simple mechanism for them to easily stay up to date with Motu Lani developments and receive special offers.
 	- The subscribe to newsletter feature will help the Motu Lani owners with their digital marketing efforts.
+
 	![Footer newsletter form](readme_assets/images/email_footer.png "Footer newsletter form")
 
+- **Home Page Video**
+	- The top of the home page features an auto-playing background video overlayed with the page heading and sub-heading. The video grabs the attention of the user and sets the theme for both the rest of the website and the Motu Lani resort.
+	- On smal screen devices a CTA is also shown over the video, encouraging users to book as the desktop navigation is not visible.
+
+	![Home background video](readme_assets/images/video.png "Home background video")
+
+- **Home Page Gallery**
+	-	To give users a feel for the experience offered at the Motu Lani resort there is a CSS gallery. The gallery is useful to users as it shows what the island is like and the experience on offer.
+
+	<img src="readme_assets/images/gallery.png" alt="Matu Lani Gallery" width="300px"/>
+
+- **Back to top feature**
+	-	The accomodation, activities and cuisine pages feature a link that will take the user back to the top of the page. It features smooth scrolling (in browsers that support this) for a nice user experience and saves the user from having to do lots of scrolling if they wish to go back to the top of the page.
+
+	![Back to top](readme_assets/images/back_to_top.png "Back to top")
+
+- **Information Cards**
+	- The activities and cuisine pages both feature information cards. These cards present information about the difference activities and dining venues in a clear  way using a technique called 'chunking' where content is ring fenced from other content, making dense content easy to scan and digest.
+	<br>
+	<img src="readme_assets/images/information_cards.png" alt="Information Cards" width="400px"/>
+
+- **Contact Form**
+	- There is a contact form allowing users to easily contact the Motu Lani resort about any enquiries they might have. The form features validation ensuring an email address must be entered into the email field and that all fields must be fille dbefore submission is possible. 
+	- The form has been broken down into three simple steps, allowing the form to breathe and creatign a simple user flow. This will make it more likely for users to complete the form, ensuring the Motu Lani owners get as many enquries as possible, maybe leading to more bookings and customer engagement. 
+	- When a field in the form is active the background colour changes, providing feedback for the user.
+	<br>
+	<img src="readme_assets/images/contact_form.png" alt="Contact Form" width="350px"/>
+
+- **Booking Request Form**
+	- The booking page features a booking request form, allowing users to send a reservation request. This is valuable to the user at it makes it easy for them to make a booking request without havign to phone the resort or sending an email. The form reduces friction in the reservation process, increasing bookings for the Motu Lani resort owners.
+	- The form has been broken down into five simple steps, creating a logical user flow and grouping the required information. This approach imporves the UX of filling out the form, a generally tedious process where user abandons are common. 
+	- The form is benefcial to the Motu Owners as it standardises booking requests and reduces administration. The form validation requires all required fields to be filled before submitting. Date pickers ensure vlid date formats are submitted.
+	- The accomodation pictures with radio buttons visually indicate to the user what accomodation option they are picking, reducing the chance of the incorrect accomodation choice being made whilst filling out the form.
+	- When a field in the form is active the background colour changes, providing visual feedback for the user.
+	<br>
+	<img src="readme_assets/images/booking_form.png" alt="Booking form" width="350px"/>
+
+- **Form submission confirmation**
+	- When any of the three forms are submitted on the Motu Lani site they will automatically be taken to a confirmation page. 
+	- This is a good UX practice as it acknolwedges that the user's action has been successfully completed. This prevents the user submitting the same form duplicate times.
+	- This page features a tick animation, emphasizing that the form was submitted.
+	- Users are automatically redirected to the home page after a few seconds, but should this fail there is a link to take them there. This eliminates the need for the user to use the back button when navigating around the Motu Lani site.
+	<br>
+	<img src="readme_assets/images/form_submission.png" alt="Information Cards" width="400px"/>	
 ### Features Left to Implement
 
 - Currently the website has a booking form where users can submit booking requests. What would really enhance the project is to add a live booking system, where users can see dynamic pricing + availability and to make a booking themselves.
