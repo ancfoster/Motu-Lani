@@ -8,7 +8,7 @@ Click to return back to the [README.md](README.md)
 |---|---|
 |<img src="readme_assets/testing_images/chrome.png" width="48px" height="48px">|<img src="readme_assets/testing_images/chrome_index.jpeg" width="450px" height="auto">|
 |<img src="readme_assets/testing_images/safari.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
-|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.jpeg" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/firefox_index.jpeg" width="450px" height="auto">|
 
 - **accomodation.html**
 
@@ -16,7 +16,7 @@ Click to return back to the [README.md](README.md)
 |---|---|
 |<img src="readme_assets/testing_images/chrome.png" width="48px" height="48px">|<img src="readme_assets/testing_images/chrome_accomodation.jpeg" width="450px" height="auto">|
 |<img src="readme_assets/testing_images/safari.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
-|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/firefox_accomodation.jpeg" width="450px" height="auto">|
 
 - **activities.html**
 
@@ -24,7 +24,7 @@ Click to return back to the [README.md](README.md)
 |---|---|
 |<img src="readme_assets/testing_images/chrome.png" width="48px" height="48px">|<img src="readme_assets/testing_images/chrome_activities.jpeg" width="450px" height="auto">|
 |<img src="readme_assets/testing_images/safari.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
-|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/firefox_activities.jpeg" width="450px" height="auto">|
 
 - **cuisine.html**
 
@@ -32,7 +32,7 @@ Click to return back to the [README.md](README.md)
 |---|---|
 |<img src="readme_assets/testing_images/chrome.png" width="48px" height="48px">|<img src="readme_assets/testing_images/chrome_cuisine.jpeg" width="450px" height="auto">|
 |<img src="readme_assets/testing_images/safari.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
-|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/firefox_cuisine.jpeg" width="450px" height="auto">|
 
 - **contact.html**
 
@@ -40,7 +40,7 @@ Click to return back to the [README.md](README.md)
 |---|---|
 |<img src="readme_assets/testing_images/chrome.png" width="48px" height="48px">|<img src="readme_assets/testing_images/chrome_contact.jpeg" width="450px" height="auto">|
 |<img src="readme_assets/testing_images/safari.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
-|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/firefox_contact.jpeg" width="450px" height="auto">|
 
 - **booking.html**
 
@@ -48,7 +48,7 @@ Click to return back to the [README.md](README.md)
 |---|---|
 |<img src="readme_assets/testing_images/chrome.png" width="48px" height="48px">|<img src="readme_assets/testing_images/chrome_booking.jpeg" width="450px" height="auto">|
 |<img src="readme_assets/testing_images/safari.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
-|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/firefox_booking.jpeg" width="450px" height="auto">|
 
 
 ## Code Validation
