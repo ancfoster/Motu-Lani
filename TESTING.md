@@ -102,16 +102,16 @@ All CSS files have passed through the W3C validator.
 | Device | Screenshot |
 |---|---|
 | iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_activities.png" width="200px" height="auto">|
-| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_activities.png" width="200px" height="auto"> |
-| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_activities.png" width="200px" height="auto"> |
+| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/laptop_activities.png" width="200px" height="auto"> |
+| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/nexus_activities.png" width="200px" height="auto"> |
 
-- **accomodation.html**
+- **cuisine.html**
 
 | Device | Screenshot |
 |---|---|
-| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_.jpeg" width="200px" height="auto">|
-| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_.jpeg" width="200px" height="auto"> |
-| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_.jpeg" width="200px" height="auto"> |
+| iPhone SE 2 (375 x 667) | <img src="readme_assets/testing_images/iphone_cuisine.png" width="200px" height="auto">|
+| Nexus 7 Tablet (600 x 960) | <img src="readme_assets/testing_images/nexus_cuisine.png" width="200px" height="auto"> |
+| Laptop MDPI (1280 x 800) | <img src="readme_assets/testing_images/laptop_cuisine.png" width="200px" height="auto"> |
 
 - **index.html**
 
