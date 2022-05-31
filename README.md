@@ -182,7 +182,14 @@ The Motu Lani site was deployed to GitHub pages using the following steps:
 - The live link can be found at [https://ancfoster.github.io/Motu-Lani/index.html](https://ancfoster.github.io/Motu-Lani/index.html)
 
 ### Local Deployment
-    document all the necessary steps someone else can take in order to make a local copy of your project, like cloning, forking, etc.
+- Should someone wish to clone the repository the follwoign steps can be followed:
+	- Log in to GitHub.com and GitHub desktop
+	- Navigate to [https://github.com/ancfoster/Motu-Lani](https://github.com/ancfoster/Motu-Lani)
+	- Click on the download button (above list of files)
+	- Then click 'Open with GitGUb desktop'
+	- A clone repository dialog will appear. Select a local directory by clicking on the 'Choose . . .' button. This is where the repository will be cloned.
+	- Finally click the blue clone button. 
+
 ## Credits
 
 ### Content
