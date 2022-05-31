@@ -1,7 +1,16 @@
 # Testing
 Click to return back to the [README.md](README.md)
 ## Browser Compatibility
-    you must showcase proof with screenshots that you've tested the finished project on various browsers, such as Chrome, Firefox, Edge, Safari, Brave, etc.
+
+- **index.html**
+
+| Browser | Screenshot |
+|---|---|
+|<img src="readme_assets/testing_images/chrome.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/safari.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+|<img src="readme_assets/testing_images/firefox.png" width="48px" height="48px">|<img src="readme_assets/testing_images/.png" width="450px" height="auto">|
+
+
 ## Code Validation
 #### W3C HTML Validator
 All HTML files have passed through the W3C validator.
