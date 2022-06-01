@@ -4,8 +4,9 @@
 * Autoprefixer: v10.4.4
 * Browsers: last 4 version
 */
-
 /* index.html Specific Styles */
+
+/* Video Hero Section */
 #home-page-spacer {
     width: 100%;
     min-height: 96px;
@@ -40,7 +41,7 @@
     position: relative;
 }
 #video-container video {
-    width: 100%;
+    width: 115%;
     height: auto;
 }
 #hero-flex {
@@ -83,6 +84,7 @@
     margin: 0 16px 0 16px;
     text-shadow: 1px 1px 8px rgba(0,0,0,0.45);
 }
+/* Home page CTA button */
 #hp-book-now {
     width: 180px;
     background-color: #2C4039;
@@ -109,6 +111,7 @@
     color: #fff;
     text-decoration: none;
 }
+/* Explore the island section and gallery */
 #hp-explore {
     width: 100%;
     position: relative;
@@ -179,13 +182,11 @@
     grid-column: 1 / span 2;
     grid-row: 4 / span 1;
 }
-
 .gallery-picture:nth-child(5) {
     grid-column: 3 / span 2;
     grid-row: 4 / span 1;
 }
-
-
+/* Home Page picture links */
 #hp-quad-container {
     display: -webkit-box;
     display: -ms-flexbox;
