@@ -4,7 +4,7 @@
 * Autoprefixer: v10.4.4
 * Browsers: last 4 version
 */
-
+/* Form submission styles */
 html {
     height: 100%;
 }
@@ -63,6 +63,7 @@ p a:hover {
 p a:visited {
     color: #484848;
 }
+/* Dialog styles */
 header {
     text-align: center;
 }
@@ -95,6 +96,7 @@ main {
         -ms-flex-pack: center;
             justify-content: center;
 }
+/* Tick SVG and animation */
 #tick {
     -webkit-animation: tick-animate;
             animation: tick-animate;

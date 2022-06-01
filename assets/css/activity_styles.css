@@ -4,11 +4,13 @@
 * Autoprefixer: v10.4.4
 * Browsers: last 4 version
 */
-
 /* Activities Page Styles */
+
+/* Header background */
 #activities-header-background {
     background-image: url("../images/scuba_turtle.jpeg");
 }
+/* Styles for information cards */
 .activities-card-cont {
     width: 100%;
     display: -ms-grid;

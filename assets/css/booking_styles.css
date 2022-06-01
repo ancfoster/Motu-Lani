@@ -4,11 +4,13 @@
 * Autoprefixer: v10.4.4
 * Browsers: last 4 version
 */
-
 /* Booking Page Styles */
+
+/* Header background image */
 #booking-header-background {
     background-image: url("../images/booking_header.webp");
 }
+/* Form styles */
 #form-container {
     width: 100%;
     margin: 0 0 40px 0;
@@ -189,6 +191,7 @@
     font-size: 32px !important;
     text-align: center;
 }
+/* Styles for accomodation options in  form */
 #accomo-flex {
     width: 100%;
     display: -webkit-box;

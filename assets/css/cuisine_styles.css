@@ -4,11 +4,13 @@
 * Autoprefixer: v10.4.4
 * Browsers: last 4 version
 */
-
 /* Cuisine Specifc styles */
+
+/* Header background image */
 #cuisine-header-background {
     background-image: url("../images/cuisine_header.jpeg");
 }
+/* Styles for infromation cards */
 .cuisine-card-cont {
     width: 100%;
     display: -ms-grid;

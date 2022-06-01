@@ -4,8 +4,9 @@
 * Autoprefixer: v10.4.4
 * Browsers: last 4 version
 */
-
 /* Contact Page Styles */
+
+/* Change header background image */
 #contact-header-background {
     background-image: url("../images/contact_header.jpeg");
 }
@@ -44,6 +45,7 @@
     font-size: 1.1rem;
     letter-spacing: 2px;
 }
+/* Getting here section */
 #getting-here {
     background-color: #cce6ef;
     position: relative;
@@ -88,6 +90,7 @@
     width: 100%;
     height: auto;
 }
+/* .cls-2 controls a circle in the inline SVG image */
 .cls-2 {
     opacity: 0.36;
     stroke:#088073;
@@ -106,6 +109,7 @@
         -ms-transform-origin: 884.5px 255.5px;
             transform-origin: 884.5px 255.5px;
 }
+/* Map pulsing animation */
 @-webkit-keyframes map-pulse {
     0% {
         opacity: 0.36;
@@ -130,6 +134,7 @@
                 transform: scale(1.8);
     }
 }
+/* Contact form styles */
 #form-container {
     width: 100%;
     margin: 0 0 24px 0;
