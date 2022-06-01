@@ -147,7 +147,7 @@ The Motu Lani project involved building a response website that would work accro
 	- The contact page features a map showing the location of Motu Lani in relation to the interational airport. I have used a subtle CSS animation to highlight the island.
 	
 
-	<img src="readme_assets/testing_images/map.png" alt="Motu Lani Map" width="400px"/>
+	<img src="readme_assets/testing_images/story_map.png" alt="Motu Lani Map" width="400px"/>
 	
 ### Features Left to Implement
 
