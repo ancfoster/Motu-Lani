@@ -4,11 +4,13 @@
 * Autoprefixer: v10.4.4
 * Browsers: last 4 version
 */
-
 /* Activities Page Styles */
+
+/* Header style */
 #accomodation-header-background {
     background-image: url("../images/accomodation_header.jpeg");
 }
+/* Accomodation Features styles */
 #accomodation-features {
     margin-bottom: 24px;
 }
@@ -49,6 +51,7 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+/* Bungalow/Residence sections */
 .acco-flex {
     display: -webkit-box;
     display: -ms-flexbox;
