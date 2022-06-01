@@ -55,8 +55,8 @@ Click to return back to the [README.md](README.md)
 #### W3C HTML Validator
 All HTML files have passed through the W3C validator.
 
-| File | Validator Result |
-|---|---|
+| File | Validator Result | Screenshot |
+|---|---|---|
 |index.html|[Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fancfoster.github.io%2FMotu-Lani%2Findex.html)|
 |accomodation.html|[Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fancfoster.github.io%2FMotu-Lani%2Faccomodation.html)|
 |activities.html|[Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fancfoster.github.io%2FMotu-Lani%2Factivities.html)|
@@ -68,8 +68,8 @@ All HTML files have passed through the W3C validator.
 #### W3C CSS Validator
 All CSS files have passed through the W3C validator.
 
-| File | Validator Result |
-|---|---|
+| File | Validator Result | Screenshot |
+|---|---|---|
 |style.css|[Link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fancfoster.github.io%2FMotu-Lani%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)|
 |home_styles.css|[Link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fancfoster.github.io%2FMotu-Lani%2Fassets%2Fcss%2Fhome_styles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)|
 |accomodation_styles.css|[Link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fancfoster.github.io%2FMotu-Lani%2Fassets%2Fcss%2Faccomodation_styles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)|
@@ -78,6 +78,14 @@ All CSS files have passed through the W3C validator.
 |contact_styles.css|[Link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fancfoster.github.io%2FMotu-Lani%2Fassets%2Fcss%2Fcontact_styles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)|
 |cuisine_styles.css|[Link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fancfoster.github.io%2FMotu-Lani%2Fassets%2Fcss%2Factivity_styles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)|
 |form_submission_styles.css|[Link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fancfoster.github.io%2FMotu-Lani%2Fassets%2Fcss%2Fform_submission_styles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)|
+
+#### JSHint 
+All JavaScript code was analysed with [JSHint](https://jshint.com)
+
+| File | Screenshot |
+|---|---|
+|scripts.js|![Scipts.js](readmeassets/testing_images/scripts_js.png "Scripts JS")|
+|booking.js|![Scipts.js](readmeassets/testing_images/booking_js.png "Scripts JS")|
 
 ## Responsiveness
 
@@ -131,7 +139,18 @@ All CSS files have passed through the W3C validator.
 
 
 ## User Story Testing (if you have user stories from the README)
-    if so, just copy/paste your user stories here, and then provide a screenshot of each from the finished site, usually this is a combo of UserStory+Feature screenshot
+
+- As a user, I would like to see what accomodation is available at Motu Lani.
+
+- As a user, I would like to learn about the food and activities available at the Motu Lani resort.
+
+- As a user, I would like to make a booking request with Motu Lani.
+
+- As a user, I would like to learn how to get to Motu Lani.
+
+
 ## Unfixed Bugs
 
 - Not a bug, but in Safari on iOS/iPad OS devices the index.html background video does not play. This is a [documented issue](https://developer.apple.com/forums/thread/690523) and not something I can fix.
+- Safari prior to version 15.5 `scroll-behavior: smooth;` does not work.
+- On Safari for iOS/iPad OS the submit form buttons feature rounded corner and are not the correct size. This behaviour does not occur on Safari for macOS and persists despite the use of vendor prefixes for Webkit.
