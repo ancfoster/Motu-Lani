@@ -156,7 +156,7 @@ All JavaScript code was analysed with [JSHint](https://jshint.com)
 
 - As a user, I would like to learn how to get to Motu Lani.
 
-	<img src="readme_assets/testing_images/story+map.png" width="300px" height="auto">
+	<img src="readme_assets/testing_images/story_map.png" width="300px" height="auto">
 
 
 ## Unfixed Bugs
