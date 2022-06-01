@@ -57,7 +57,7 @@ All HTML files have passed through the W3C validator.
 
 | File | Validator Result | Screenshot |
 |---|---|---|
-|index.html|[Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fancfoster.github.io%2FMotu-Lani%2Findex.html)|
+|index.html|[Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fancfoster.github.io%2FMotu-Lani%2Findex.html)|![index.html](readme_assets/testing_images/index.png)|
 |accomodation.html|[Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fancfoster.github.io%2FMotu-Lani%2Faccomodation.html)|
 |activities.html|[Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fancfoster.github.io%2FMotu-Lani%2Factivities.html)|
 |booking.html|[Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fancfoster.github.io%2FMotu-Lani%2Fbooking.html)|
