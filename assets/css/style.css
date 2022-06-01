@@ -227,9 +227,17 @@ text-decoration : underline;
 background-color : #2C4039;
 border : #fff solid 1px;
 margin-top : 16px;
+padding-top: 0;
+padding-bottom: 0;
 }
 #mobile-navigation-container li:last-of-type:hover {
 background-color : #ffffff;
+}
+#mobile-navigation-container li:last-of-type a {
+    display: block;
+    box-sizing: border-box;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 #mobile-navigation-container li:last-of-type:hover a {
 color : #25615B;
