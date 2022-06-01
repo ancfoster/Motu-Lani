@@ -142,11 +142,21 @@ All JavaScript code was analysed with [JSHint](https://jshint.com)
 
 - As a user, I would like to see what accomodation is available at Motu Lani.
 
+	<img src="readme_assets/testing_images/story_accomodation.png" width="200px" height="auto">
+
 - As a user, I would like to learn about the food and activities available at the Motu Lani resort.
+
+	<img src="readme_assets/testing_images/story_dining.png" width="300px" height="auto">
+
+	<img src="readme_assets/testing_images/story_activities.png" width="300px" height="auto">
 
 - As a user, I would like to make a booking request with Motu Lani.
 
+	<img src="readme_assets/testing_images/story_booking.png" width="300px" height="auto">
+
 - As a user, I would like to learn how to get to Motu Lani.
+
+	<img src="readme_assets/testing_images/story+map.png" width="300px" height="auto">
 
 
 ## Unfixed Bugs
