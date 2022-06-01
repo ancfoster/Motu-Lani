@@ -84,8 +84,8 @@ All JavaScript code was analysed with [JSHint](https://jshint.com)
 
 | File | Screenshot |
 |---|---|
-|scripts.js|![Scipts.js](readmeassets/testing_images/scripts_js.png "Scripts JS")|
-|booking.js|![Scipts.js](readmeassets/testing_images/booking_js.png "Scripts JS")|
+|scripts.js|![Srcipts.js](readme_assets/testing_images/scripts_js.png "Scripts JS")|
+|booking.js|![Booking.js](readme_assets/testing_images/booking_js.png "Scripts JS")|
 
 ## Responsiveness
 
