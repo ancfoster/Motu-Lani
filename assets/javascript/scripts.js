@@ -8,7 +8,7 @@ let dropStatus = 0;
 let burgerTop = document.getElementById("burger-top");
 let burgerMiddle = document.getElementById("burger-middle");
 let burgerBottom = document.getElementById("burger-bottom");
-let mobileNavCont = document.getElementById("mobile-navigation-container")
+let mobileNavCont = document.getElementById("mobile-navigation-container");
 // Controls burger icon animation and opens/closes mobile navigation
 function navDrop() {
 	if (dropStatus == 0) {
